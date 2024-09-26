@@ -1,79 +1,71 @@
 <template>
-  <div class="desktop:pt-[119px] tablet:pt-[95px]">
-    <div id="HOME" class="h-[710px] tablet:h-[516px] relative">
-      <img class="w-full h-full object-cover" src="@/assets/img/banner.png" alt="">
-      <div
-        class="w-fit absolute text-white left-[10%] top-[35%] flex flex-col gap-2 tablet:items-center tablet:left-0 tablet:top-[10%]">
-        <div class="text-[11px] font-[400] desktop:hidden mac:hidden laptop:hidden tablet:mb-[1.5rem]">COZY PLACE. FRESH
-          COFFEE.</div>
-        <div
-          class="text-[2rem] font-[700] tablet:w-[80%] tablet:text-center tablet:text-[32px] tablet:mb-[1.5rem] w-fit">
-          Brew
-          Memories in Park Slope! </div>
-        <div class="flex flex-col tablet:text-center w-fit">
-          <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit">Unforgettable Bubble Tea</div>
-          <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit">and Coffee in Brooklyn.</div>
+  <div class="desktop:pt-[119px] tablet:pt-86px]">
+    <div id="HOME" class="h-[710px] mac:h-[679px] relative mac:pt-[109px] tablet:pt-[86px] tablet:h-full">
+      <div class="w-full h-full tablet:hidden">
+        <img class="w-full h-full object-cover" src="@/assets/img/banner.png" alt="">
+        <div class="w-fit absolute text-white left-[10%] top-[25%] flex flex-col gap-2 items-center tablet:left-0 tablet:top-[10%]">
+          <div class="text-[2rem] font-[700] tablet:w-[80%] tablet:text-center tablet:text-[32px] mb-[1.5rem] w-fit">
+            7 TRAIN TATTOO STUDIO INC</div>
+          <div class="flex flex-col tablet:text-center w-fit">
+            <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit">Ink Your Story, Wear Your Soul.</div>
+          </div>
+          <div class="desktop:hidden mac:hidden laptop:hidden w-[1px] h-[67px] bg-white my-[1.2rem]" />
+          <div
+            class="bg-white px-[22px] py-[1rem] my-[2.5rem] font-[500] text-black w-max cursor-pointer underline mobile:py-[8px]">
+            <a :href="'tel:646-379-9995'">Call to book  (646) 379-9995</a>
+          </div>
+          <div class="flex flex-col justify-center items-center text-[1.5rem] font-[400] mac:text-[1rem]">
+            <div>133-55 Roosevelt Ave 2nd fl,</div>
+            <div>Flushing, NY 11354</div>
+          </div>
         </div>
-        <div class="desktop:hidden mac:hidden laptop:hidden w-[1px] h-[67px] bg-white my-[1.2rem]" />
-        <div
-          class="bg-white px-[22px] py-[1rem] font-[500] text-black w-max rounded-full cursor-pointer mt-[1rem] underline mobile:py-[8px]"
-          @click="goUrl()">
-          Order Pickup
+      </div>
+      <div class="hidden tablet:flex tablet:flex-col justify-center items-center bg-black text-white pt-[5rem]">
+        <div class="text-[2rem] font-[700] tablet:w-[80%] tablet:text-center tablet:text-[32px] mb-[1.5rem] w-fit">
+            7 TRAIN TATTOO STUDIO INC</div>
+        <div class="flex flex-col tablet:text-center w-fit mb-[2rem]">
+          <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit">Ink Your Story, Wear Your Soul.</div>
         </div>
-        <div class="flex gap-[4px]">
-          <a href="https://www.ubereats.com/store/brew-memories/Kuq50fisWZK2CHf2uNb6RA?diningMode=PICKUP&utm_campaign=place-action-link&utm_medium=organic&utm_source=google"
-            target="_blank"><img class="mobile:w-[35px]" src="@/assets/img/uber.png" alt=""></a>
-          <a href="https://www.doordash.com/store/brew-memories-brooklyn-22949876/?pickup=true&utm_campaign=gpa"
-            target="_blank"><img class="mobile:w-[35px]" src="@/assets/img/doordash.png" alt=""></a>
-          <a href="https://www.grubhub.com/restaurant/brew-memories-295-7th-ave-brooklyn/2539246?utm_source=google&utm_medium=organic&utm_campaign=place-action-link&pickup=true&rwg_token=AJKvS9UoHvWurYpQUfLTpu0u3LZ-dKuilKeWyKUmkYU3wUYsXqRC6Re2Z2Xt9kWuhU60m_i6kT-lFKsqsnZUbkj64eGRxOsgBA%3D%3D"
-            target="_blank"><img class="mobile:w-[35px]" src="@/assets/img/grubhub.png" alt=""></a>
+        <div class="bg-white px-[22px] py-[1rem] my-[2.5rem] font-[500] text-black w-max cursor-pointer underline mobile:py-[8px]">
+          <a :href="'tel:646-379-9995'">Call to book  (646) 379-9995</a>
         </div>
+        <div class="flex flex-col justify-center items-center text-[1rem] font-[400]">
+          <div>133-55 Roosevelt Ave 2nd fl,</div>
+          <div>Flushing, NY 11354</div>
+        </div>
+        <img class="mt-[5.5rem] w-full" src="@/assets/img/bannerPhone.png" alt="">
       </div>
     </div>
-    <div id="ABOUT" class="px-[10%] flex pt-[139px] pb-[239px] justify-evenly tablet:pt-[72px]">
-      <div class="w-[50%] flex flex-col items-center tablet:hidden">
-        <div class="w-[405px]">
-          <div class="text-[2rem] font-[700] mb-[1rem]">WE ARE BREW<br> MEMORIES!</div>
-          <div class="font-[400] mb-[71px] w-[405px]">
-            Welcome to Brooklyn’s best café in Park Slope, where passion meets perfection in every cup. Dive into a
-            world of aromatic brews, handcrafted from globally sourced beans, and expertly roasted here in New York’s
-            beloved borough.
-          </div>
-          <img class="w-[405px] h-[280px] mb-[75px]" src="@/assets/img/about1.png" alt="">
-          <div class="text-[1.5rem] font-[700]">Freshly Made</div>
-          <div class="font-[400]">Fresh coffee, quality drinks, excellent meals!</div>
+    <div class="bg-[#EAEAEA] h-[5rem] flex items-center justify-center tablet:hidden">If you would like to schedule a tattoo consultation, please call (646) 379-9995.</div>
+    <div id="ABOUT" class="px-[10%] flex py-[12rem] justify-evenly tablet:py-[109px] mac:py-[8rem]">
+      <div class="w-[50%] flex flex-col justify-center items-center tablet:hidden">
+        <div class="w-[405px] flex justify-center items-center">
+          <img src="@/assets/img/aboutImg.png" alt="">
         </div>
       </div>
       <div class="w-[50%] flex flex-col items-center tablet:hidden">
-        <div class="w-[405px]">
-          <img class="w-[405px] h-[280px]" src="@/assets/img/about2.png" alt="">
-          <div class="my-[84px] w-[405px]">
-            We roast our coffee locally in small batches to ensure you get the freshest beans around. Not only is our
-            coffee roasted to perfection, but all our drinks, including the finest bubble tea, as well as our meals and
-            desserts, up hold the same standard of excellence!
-          </div>
-          <img class="w-[405px] h-[280px]" src="@/assets/img/about3.png" alt="">
+        <div class="flex flex-col items-center justify-center text-[2rem] font-[400] mb-[2rem]">
+          <div>SERVICE BEYOND </div>
+          <div>EXPECTATION</div>
+        </div>
+        <div class="w-full">
+          7号铁刺青(7 Train Tattoo )专业纹身-穿孔。由多次获得“纽约国际纹身博览会”大奖的 Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。我们的纹身师们具备丰富的创意和技术，可以为你实现各种纹身设计。我们擅长新/日传统纹身 (Neotraditional tattoo/Traditionaltattoo)，日式纹身(Japanesetattoo)欧美写实纹身(Realistic tattoo),细线纹身(Fine line tattoo)，肖像纹身，美式(Old School)纹身，纹身覆盖等等。
+          欢迎咨询:646-379-9995
+          地址:133-55 Roosevelt Ave,2ndfloor, Flushing,NY 11354(纽约法拉盛)
+          7 Train Tattoo - Professional Tattoo & Piercing Studio. Led by award-winning artist Mr. Ricky, a multiple-time winner at the New York International Tattoo Expo, our team of skilled tattoo artists is dedicated to providing a top-quality tattoo experience with a focus on hygiene and safety. We take the time to listen to your ideas and needs, working closely with you to create unique and stunning tattoo pieces. Our expertise includes Neo-traditional and Traditional tattoos, Japanese tattoos, Realistic tattoos, Fine line tattoos, Portrait tattoos, Old School tattoos, and tattoo cover-ups.
         </div>
       </div>
       <div class="desktop:hidden mac:hidden laptop:hidden flex flex-col justify-center items-center">
-        <div class="text-[21px] font-[700] mb-[14px]">WE ARE BREW MEMORIES!</div>
-        <div class="text-[14px] font-[400] leading-[20px] mb-[2rem]">
-          Welcome to Brooklyn’s best café in Park Slope, where passion meets perfection in every cup. Dive into a world
-          of aromatic brews, handcrafted from globally sourced beans, and expertly roasted here in New York’s beloved
-          borough.
+        <div class="text-[36px] font-[700] mb-[14px] whitespace-nowrap text-center">SERVICE BEYOND <br>EXPECTATION </div>
+        <div class="text-[14px] font-[400] leading-[20px]">
+          7号铁刺青(7 Train Tattoo )专业纹身-穿孔。由多次获得“纽约国际纹身博览会”大奖的 Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。我们的纹身师们具备丰富的创意和技术，可以为你实现各种纹身设计。我们擅长新/日传统纹身 (Neotraditional tattoo/Traditionaltattoo)，日式纹身(Japanesetattoo)欧美写实纹身(Realistic tattoo),细线纹身(Fine line tattoo)，肖像纹身，美式(Old School)纹身，纹身覆盖等等。
         </div>
-        <img class="mb-[3.5rem]" src="@/assets/img/about2.png" alt="">
-        <div class="mb-[2.5rem]">
-          We roast our coffee locally in small batches to ensure you get the freshest beans around. Not only is our
-          coffee roasted to perfection, but all our drinks, including the finest bubble tea, as well as our meals and
-          desserts, up hold the same standard of excellence!
+        <div class="text-center">欢迎咨询:646-379-9995</div>
+        <div class="text-center mb-[2rem]">地址:133-55 Roosevelt Ave,2ndfloor, Flushing,NY 11354(纽约法拉盛)</div>
+        <div>
+          7 Train Tattoo - Professional Tattoo & Piercing Studio. Led by award-winning artist Mr. Ricky, a multiple-time winner at the New York International Tattoo Expo, our team of skilled tattoo artists is dedicated to providing a top-quality tattoo experience with a focus on hygiene and safety. We take the time to listen to your ideas and needs, working closely with you to create unique and stunning tattoo pieces. Our expertise includes Neo-traditional and Traditional tattoos, Japanese tattoos, Realistic tattoos, Fine line tattoos, Portrait tattoos, Old School tattoos, and tattoo cover-ups.
         </div>
-        <img class="mb-[3.5rem]" src="@/assets/img/about1.png" alt="">
-        <div class="flex flex-col justify-center items-center mb-[3rem]">
-          <div class="text-[21px] font-[700]">Freshly Made</div>
-          <div class="text-center">Fresh coffee, quality drinks,<br> excellent meals!</div>
-        </div>
-        <img src="@/assets/img/about3.png" alt="">
+        <img class="mt-[4rem]" src="@/assets/img/aboutImgPhone.png" alt="">
       </div>
     </div>
     <div id="MENU" class="flex flex-col justify-center items-center bg-[#4B3426] py-[100px] relative">
@@ -109,11 +101,6 @@
       <div class="bg-white py-[12px] px-[24px] rounded-full cursor-pointer"
         @click="goUrl('https://www.brewmemoriesbk.com/?owg-fulfillment=pickup&location=11eb2bc2ec210b108648ac1f6bbbd01e&rwg_token=AJKvS9WDU7_3g7t7JDaxeVlPYROz4YtufvuVAYYGMiTvqA1drmZ-iyr9mNoCs4jK8j2DWTLpNn9k0US4aRc4OlWNnoDbuFssKQ%3D%3D#most-popular')">
         Order Online</div>
-      <img class="w-[450px] h-[320px] absolute top-[-25%] left-[20%] tablet:hidden" src="@/assets/img/menu.png" alt="">
-      <div class="desktop:hidden laptop:hidden mac:hidden absolute top-[-13%] left-0 flex">
-        <img src="@/assets/img/menuP1.png" alt="">
-        <img class="mb-[20%]" src="@/assets/img/menuP2.png" alt="">
-      </div>
     </div>
     <!-- 六張圖區 -->
     <div id="GALLERY"
@@ -150,77 +137,21 @@
         quencher.</span>
       <img class="w-full" src="@/assets/img/c/c3.png" alt="coffee info">
     </div>
-    <div id="CONTACT US">
-      <!-- contact 桌電板 -->
-      <div class="laptop:hidden tablet:hidden relative" id="CONTACT US">
-        <img src="@/assets/img/bb.png" alt="contact" class="w-full object-contain">
-        <div class="absolute right-[256px] top-[50%] translate-y-[-50%] flex flex-col gap-[30px]">
-          <div class="flex gap-[20px] items-center translate-x-[-167px]">
-            <img src="@/assets/img/phone.png" alt="contact" class="object-contain w-[50px]">
-            <span class="text-[15px] text-white">347-987-3954</span>
-          </div>
-          <a href="https://www.brewmemoriesonline.com/" target="_blank">
-            <div class="flex gap-[20px] items-center translate-x-[-80px]">
-              <img src="@/assets/img/online-order.png" alt="contact" class="object-contain w-[50px]">
-              <span class="text-[15px] text-white">Online Order</span>
-            </div>
-          </a>
-          <div class="flex gap-[20px] items-center">
-            <img src="@/assets/img/location.png" alt="contact" class="object-contain w-[50px]">
-            <span class="text-[15px] text-white">295 7th Ave, Brooklyn,<br />NY 11215</span>
-          </div>
-          <a href="https://www.facebook.com/profile.php?id=61565750253296" target="_blank">
-            <div class="flex gap-[20px] items-center translate-x-[-80px]">
-              <img src="@/assets/img/facebook.png" alt="contact" class="object-contain w-[50px]">
-              <span class="text-[15px] text-white">Brew Memories</span>
-            </div>
-          </a>
-          <a href="https://www.instagram.com/brew_memories" target="_blank">
-            <div class="flex gap-[20px] items-center translate-x-[-167px]">
-              <img src="@/assets/img/instagram.png" alt="contact" class="object-contain w-[50px]">
-              <span class="text-[15px] text-white">Brew_Memories</span>
-            </div>
-          </a>
-        </div>
-        <img src="@/assets/img/mo2.png" alt="contact" class="object-contain absolute bottom-[-90px] right-[60px]">
+    <div id="CONTACT" class="mx-[20%] flex flex-col justify-center items-center">
+      <div class="text-[2rem] mac:text-[1.5rem] font-[500] tablet:leading-[2rem] tablet:text-[1.5rem] tablet:text-center">7 Train Tattoo Studio– Professional Tattooing and Piercing</div>
+      <div class="text-[1.5rem] mac:text-[1rem] font-[400] text-center my-[2rem] tablet:text-[1rem]">
+        Led by award-winning tattoo artist Ricky, who has won multiple honors at the New York International Tattoo Expo, our team is dedicated to providing you with a high-quality tattoo experience in a safe and hygienic environment. We listen carefully to your ideas and work with you to create a unique, stunning tattoo.
       </div>
-      <!-- contact 手機版 -->
-      <!-- <div class="relative desktop:hidden mac:hidden">
-        <img src="@/assets/img/mo1.png" alt="contact" class="w-full object-contain">
-        <img src="@/assets/img/mo2.png" alt="contact" class="object-contain absolute bottom-[-90px]">
-      </div> -->
-      <div class="relative desktop:hidden mac:hidden" id="CONTACT US">
-        <img src="@/assets/img/phone2.png" alt="contact" class="w-full object-contain">
-        <div class="flex flex-col gap-[30px] absolute bottom-[150px] left-[50%] translate-x-[-50%]">
-          <div class="flex gap-[20px] items-center">
-            <img src="@/assets/img/phone.png" alt="contact" class="object-contain w-[37px]">
-            <span class="text-[14px] text-white">347-987-3954</span>
-          </div>
-          <a href="https://www.brewmemoriesonline.com/" target="_blank">
-            <div class="flex gap-[20px] items-center">
-              <img src="@/assets/img/online-order.png" alt="contact" class="object-contain w-[37px]">
-              <span class="text-[14px] text-white">Online Order</span>
-            </div>
-          </a>
-          <div class="flex gap-[20px] items-center">
-            <img src="@/assets/img/location.png" alt="contact" class="object-contain w-[37px]">
-            <span class="text-[14px] text-white">295 7th Ave, Brooklyn,<br />NY 11215</span>
-          </div>
-          <a href="https://www.facebook.com/profile.php?id=61565750253296" target="_blank">
-            <div class="flex gap-[20px] items-center">
-              <img src="@/assets/img/facebook.png" alt="contact" class="object-contain w-[37px]">
-              <span class="text-[14px] text-white">Brew Memories</span>
-            </div>
-          </a>
-          <a href="https://www.instagram.com/brew_memories" target="_blank">
-            <div class="flex gap-[20px] items-center">
-              <img src="@/assets/img/instagram.png" alt="contact" class="object-contain w-[37px]">
-              <span class="text-[14px] text-white">Brew_Memories</span>
-            </div>
-          </a>
-        </div>
-        <img src="@/assets/img/mo2.png" alt="contact" class="object-contain absolute bottom-[-90px] right-[60px]">
+      <div class="text-[1.5rem] mac:text-[1rem] font-[400] my-[2rem] text-center tablet:text-[1rem]">
+        Our artists are skilled in a variety of styles, including Neo-traditional, Traditional, Japanese, Realistic, Fine Line, Portrait, Old School, and cover-up tattoos. Danny, another highly experienced artist on our team, specializes in Asian styles, Chinese watercolor, fine line, and small tattoos, with a keen eye for detail and refined compositions.
       </div>
+      <div class="text-[1.5rem] mac:text-[1rem] font-[600] tablet:text-[1rem]">Book your appointment today! </div>
+      <div class="text-[1.5rem] mac:text-[1rem] font-[600] tablet:text-[1rem]">Call (646) 379-9995 for consultation.</div>
+    </div>
+    <div class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:flex-col tablet:my-[5rem]">
+      <img src="@/assets/img/contactImg1.png" alt="">
+      <img src="@/assets/img/contactImg2.png" alt="">
+      <img src="@/assets/img/contactImg3.png" alt="">
     </div>
   </div>
   <div
