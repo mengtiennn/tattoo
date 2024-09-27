@@ -132,7 +132,7 @@
     </div>
     <!-- 刺青師介紹 手機版 -->
     <div
-      class="destop:hidden mac:hidden flex flex-col bg-[#EAEAEA] pt-[84px] pb-[106px] px-[30px] justify-center mb-[54px]">
+      class="hidden laptop:flex tablet:flex flex-col bg-[#EAEAEA] pt-[84px] pb-[106px] px-[30px] justify-center mb-[54px]">
       <div class="flex flex-col items-center gap-[18px]">
         <span class="teko font-[500] text-[36px] mac:text-[24px]">Ricky Chen</span>
         <img src="@/assets/img/ricky.png" alt="contact">
@@ -145,7 +145,7 @@
       </div>
     </div>
     <div
-      class="destop:hidden mac:hidden flex flex-col bg-[#EAEAEA] pt-[84px] pb-[106px] px-[30px] justify-center mb-[54px]">
+      class="hidden laptop:flex tablet:flex flex-col bg-[#EAEAEA] pt-[84px] pb-[106px] px-[30px] justify-center mb-[54px]">
       <div class="flex flex-col items-center gap-[18px]">
         <span class="teko font-[500] text-[36px] mac:text-[24px]">Danny</span>
         <img src="@/assets/img/danny.png" alt="contact">
@@ -159,7 +159,7 @@
         <img class="w-[30vw]" :src="getAssetsImgFile('d', `d${r}.png`)" alt="" v-for="r in 8">
       </div>
     </div>
-    <div class="destop:hidden mac:hidden flex bg-[#EAEAEA] pt-[84px] pb-[106px] justify-center">
+    <div class="hidden laptop:flex tablet:flex bg-[#EAEAEA] pt-[84px] pb-[106px] justify-center">
       <div class="flex flex-col items-center gap-[18px]">
         <span class="teko font-[500] text-[36px] mac:text-[24px]">Kimberly</span>
         <img src="@/assets/img/kimberly.png" alt="contact">
@@ -191,7 +191,7 @@
     </div>
     <!-- contact 手機版 -->
     <div
-      class="destop:hidden mac:hidden flex bg-[#292929] w-full pt-[191px] pb-[100px] justify-center relative mt-[200px] mb-[75px]">
+      class="hidden laptop:flex tablet:flex bg-[#292929] w-full pt-[191px] pb-[100px] justify-center relative mt-[200px] mb-[75px]">
       <img src="@/assets/img/mcontact.png" alt="" class="absolute top-[-100px]">
       <div class="flex flex-col justify-between gap-[46px]">
         <div class="flex flex-col gap-[4px] items-center">
@@ -231,10 +231,10 @@
       <div class="text-[1.5rem] mac:text-[1rem] font-[600] tablet:text-[1rem]">Call (646) 379-9995 for consultation.
       </div>
     </div>
-    <div class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:flex-col tablet:my-[5rem]">
-      <img src="@/assets/img/contactImg1.png" alt="">
-      <img src="@/assets/img/contactImg2.png" alt="">
-      <img src="@/assets/img/contactImg3.png" alt="">
+    <div class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:flex-col tablet:my-[5rem] tablet:px-[20px]">
+      <img src="@/assets/img/contactImg1.png" alt="" class="w-full">
+      <img src="@/assets/img/contactImg2.png" alt="" class="w-full">
+      <img src="@/assets/img/contactImg3.png" alt="" class="w-full">
     </div>
   </div>
   <div
