@@ -5,40 +5,42 @@
         <img class="w-full h-full object-cover" src="@/assets/img/banner.png" alt="">
         <div
           class="w-fit absolute text-white left-[10%] top-[25%] flex flex-col gap-2 items-center tablet:left-0 tablet:top-[10%]">
-          <div class="text-[2rem] font-[700] tablet:w-[80%] tablet:text-center tablet:text-[32px] mb-[1.5rem] w-fit">
+          <div
+            class="text-[2rem] font-[700] tablet:w-[80%] tablet:text-center tablet:text-[32px] mb-[1.5rem] w-fit teko">
             7 TRAIN TATTOO STUDIO INC</div>
           <div class="flex flex-col tablet:text-center w-fit">
-            <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit">Ink Your Story, Wear Your Soul.</div>
+            <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit teko">Ink Your Story, Wear Your Soul.</div>
           </div>
           <div class="desktop:hidden mac:hidden laptop:hidden w-[1px] h-[67px] bg-white my-[1.2rem]" />
           <div
-            class="bg-white px-[22px] py-[1rem] my-[2.5rem] font-[500] text-black w-max cursor-pointer underline mobile:py-[8px]">
+            class="bg-white px-[22px] py-[1rem] my-[2.5rem] font-[500] text-black w-max cursor-pointer underline mobile:py-[8px] teko">
             <a :href="'tel:646-379-9995'">Call to book (646) 379-9995</a>
           </div>
-          <div class="flex flex-col justify-center items-center text-[1.5rem] font-[400] mac:text-[1rem]">
+          <div class="flex flex-col justify-center items-center text-[1.5rem] font-[400] mac:text-[1rem] teko">
             <div>133-55 Roosevelt Ave 2nd fl,</div>
             <div>Flushing, NY 11354</div>
           </div>
         </div>
       </div>
       <div class="hidden tablet:flex tablet:flex-col justify-center items-center bg-black text-white pt-[5rem]">
-        <div class="text-[2rem] font-[700] tablet:w-[80%] tablet:text-center tablet:text-[32px] mb-[1.5rem] w-fit">
+        <div class="text-[2rem] font-[700] tablet:w-[80%] tablet:text-center tablet:text-[32px] mb-[1.5rem] w-fit teko">
           7 TRAIN TATTOO STUDIO INC</div>
         <div class="flex flex-col tablet:text-center w-fit mb-[2rem]">
-          <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit">Ink Your Story, Wear Your Soul.</div>
+          <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit teko">Ink Your Story, Wear Your Soul.</div>
         </div>
         <div
-          class="bg-white px-[22px] py-[1rem] my-[2.5rem] font-[500] text-black w-max cursor-pointer underline mobile:py-[8px]">
+          class="bg-white px-[22px] py-[1rem] my-[2.5rem] font-[500] text-black w-max cursor-pointer underline mobile:py-[8px] teko">
           <a :href="'tel:646-379-9995'">Call to book (646) 379-9995</a>
         </div>
-        <div class="flex flex-col justify-center items-center text-[1rem] font-[400]">
+        <div class="flex flex-col justify-center items-center text-[1rem] font-[400] teko">
           <div>133-55 Roosevelt Ave 2nd fl,</div>
           <div>Flushing, NY 11354</div>
         </div>
         <img class="mt-[5.5rem] w-full" src="@/assets/img/bannerPhone.png" alt="">
       </div>
     </div>
-    <div class="bg-[#EAEAEA] h-[5rem] flex items-center justify-center tablet:hidden">If you would like to schedule a
+    <div class="bg-[#EAEAEA] h-[5rem] flex items-center justify-center tablet:hidden teko">If you would like to schedule
+      a
       tattoo consultation, please call (646) 379-9995.</div>
     <div id="ABOUT" class="px-[10%] flex py-[12rem] justify-evenly tablet:py-[109px] mac:py-[8rem]">
       <div class="w-[50%] flex flex-col justify-center items-center tablet:hidden">
@@ -47,11 +49,11 @@
         </div>
       </div>
       <div class="w-[50%] flex flex-col items-center tablet:hidden">
-        <div class="flex flex-col items-center justify-center text-[2rem] font-[400] mb-[2rem]">
+        <div class="flex flex-col items-center justify-center text-[2rem] font-[400] mb-[2rem] teko">
           <div>SERVICE BEYOND </div>
           <div>EXPECTATION</div>
         </div>
-        <div class="w-full">
+        <div class="w-full teko">
           7号铁刺青(7 Train Tattoo )专业纹身-穿孔。由多次获得“纽约国际纹身博览会”大奖的
           Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。我们的纹身师们具备丰富的创意和技术，可以为你实现各种纹身设计。我们擅长新/日传统纹身
           (Neotraditional tattoo/Traditionaltattoo)，日式纹身(Japanesetattoo)欧美写实纹身(Realistic tattoo),细线纹身(Fine line
@@ -67,17 +69,17 @@
         </div>
       </div>
       <div class="desktop:hidden mac:hidden laptop:hidden flex flex-col justify-center items-center">
-        <div class="text-[36px] font-[700] mb-[14px] whitespace-nowrap text-center">SERVICE BEYOND <br>EXPECTATION
+        <div class="text-[36px] font-[700] mb-[14px] whitespace-nowrap text-center teko">SERVICE BEYOND <br>EXPECTATION
         </div>
-        <div class="text-[14px] font-[400] leading-[20px]">
+        <div class="text-[14px] font-[400] leading-[20px] teko">
           7号铁刺青(7 Train Tattoo )专业纹身-穿孔。由多次获得“纽约国际纹身博览会”大奖的
           Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。我们的纹身师们具备丰富的创意和技术，可以为你实现各种纹身设计。我们擅长新/日传统纹身
           (Neotraditional tattoo/Traditionaltattoo)，日式纹身(Japanesetattoo)欧美写实纹身(Realistic tattoo),细线纹身(Fine line
           tattoo)，肖像纹身，美式(Old School)纹身，纹身覆盖等等。
         </div>
-        <div class="text-center">欢迎咨询:646-379-9995</div>
-        <div class="text-center mb-[2rem]">地址:133-55 Roosevelt Ave,2ndfloor, Flushing,NY 11354(纽约法拉盛)</div>
-        <div>
+        <div class="text-center teko">欢迎咨询:646-379-9995</div>
+        <div class="text-center mb-[2rem] teko">地址:133-55 Roosevelt Ave,2ndfloor, Flushing,NY 11354(纽约法拉盛)</div>
+        <div class="teko">
           7 Train Tattoo - Professional Tattoo & Piercing Studio. Led by award-winning artist Mr. Ricky, a multiple-time
           winner at the New York International Tattoo Expo, our team of skilled tattoo artists is dedicated to providing
           a top-quality tattoo experience with a focus on hygiene and safety. We take the time to listen to your ideas
@@ -92,9 +94,9 @@
     <div class="px-[90px] mb-[119px] laptop:hidden tablet:hidden">
       <div class="w-full bg-[#EAEAEA] py-[105px] flex items-center gap-[8vw] px-[150px] justify-between">
         <div class="flex flex-col items-center gap-[13px]">
-          <span class="teko font-[500] text-[36px] mac:text-[24px]">Ricky Chen</span>
+          <span class="teko font-[500] text-[36px] mac:text-[24px] teko">Ricky Chen</span>
           <img class="w-[489px]" src="@/assets/img/ricky.png" alt="contact">
-          <div class="w-[453px] text-[20px] font-[400] text-center mac:text-[15px]">多次获得“纽约国际纹身博览会”大奖的
+          <div class="w-[453px] text-[20px] font-[400] text-center mac:text-[15px] teko">多次获得“纽约国际纹身博览会”大奖的
             Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。
             Award-winning tattoo artist Mr. Ricky, renowned for his multiple accolades at the New York International
             Tattoo Expo.</div>
@@ -136,7 +138,8 @@
       <div class="flex flex-col items-center gap-[18px]">
         <span class="teko font-[500] text-[36px] mac:text-[24px]">Ricky Chen</span>
         <img src="@/assets/img/ricky.png" alt="contact">
-        <div class="text-[14px] text-center">Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。
+        <div class="text-[14px] text-center teko">
+          Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。
           Award-winning tattoo artist Mr. Ricky, renowned for his multiple accolades at the New York International
           Tattoo Expo.</div>
       </div>
@@ -149,7 +152,7 @@
       <div class="flex flex-col items-center gap-[18px]">
         <span class="teko font-[500] text-[36px] mac:text-[24px]">Danny</span>
         <img src="@/assets/img/danny.png" alt="contact">
-        <div class="text-[14px] text-center">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
+        <div class="text-[14px] text-center teko">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
           细线纹身，细小纹身等等。他讲究细节，构图精致，都能体现他的坚实的艺术基础。
           Master Danny has loved art since he was a child, and now he is a tattoo artist with many years of experience.
           He is good at Asian style, Chinese watercolor tattoos, fine line tattoos, small tattoos, etc. His attention to
@@ -231,7 +234,8 @@
       <div class="text-[1.5rem] mac:text-[1rem] font-[600] tablet:text-[1rem]">Call (646) 379-9995 for consultation.
       </div>
     </div>
-    <div class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:flex-col tablet:my-[5rem] tablet:px-[20px]">
+    <div
+      class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:flex-col tablet:my-[5rem] tablet:px-[20px]">
       <img src="@/assets/img/contactImg1.png" alt="" class="w-full">
       <img src="@/assets/img/contactImg2.png" alt="" class="w-full">
       <img src="@/assets/img/contactImg3.png" alt="" class="w-full">
