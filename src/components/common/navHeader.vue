@@ -32,7 +32,7 @@ const goUrl = (url?: string) => {
 </script>
 <template>
   <div
-    class="flex bg-white pt-[22px] pl-[90px] pr-[90px] pb-[22px] justify-center items-center laptop:justify-center tablet:justify-center laptop:pt-[10px] laptop:pb-[10px] tablet:pt-[10px] tablet:pb-[10px] fixed top-0 left-0 z-50 w-full tablet:px-[5%]">
+    class="flex bg-white pt-[7px] pl-[90px] pr-[90px] pb-[7px] justify-center items-center laptop:justify-center tablet:justify-center laptop:pt-[10px] laptop:pb-[10px] tablet:pt-[10px] tablet:pb-[10px] fixed top-0 left-0 z-50 w-full tablet:px-[5%]">
     <div class="flex justify-between items-center w-full gap-[5rem] max-w-[1200px]">
       <div class="w-full flex justify-between items-center gap-[5rem] tablet:justify-center">
         <div class="flex items-center cursor-pointer" @click="router.push('/')">

@@ -1,8 +1,8 @@
 <template>
-  <div class="desktop:pt-[119px] tablet:pt-86px]">
-    <div id="HOME" class="h-[710px] mac:h-[679px] relative mac:pt-[109px] tablet:pt-[86px] tablet:h-full">
-      <div class="w-full h-full tablet:hidden">
-        <img class="w-full h-full object-cover" src="@/assets/img/banner.png" alt="">
+  <div class="desktop:pt-[72px] tablet:pt-[72px]">
+    <div id="HOME" class="h-[710px] mac:h-[679px] relative mac:pt-[72px] tablet:pt-[0px] tablet:h-full">
+      <div class="w-full h-full tablet:hidden px-[78px]">
+        <img class="w-full h-full object-cover object-top" src="@/assets/img/banner.png" alt="">
         <div
           class="w-fit absolute text-white left-[10%] top-[25%] flex flex-col gap-2 items-center tablet:left-0 tablet:top-[10%]">
           <div
@@ -16,11 +16,15 @@
             class="bg-white px-[22px] py-[1rem] my-[2.5rem] font-[500] text-black w-max cursor-pointer underline mobile:py-[8px] teko">
             <a :href="'tel:646-379-9995'">Call to book (646) 379-9995</a>
           </div>
-          <div class="flex flex-col justify-center items-center text-[1.5rem] font-[400] mac:text-[1rem] teko">
-            <div>133-55 Roosevelt Ave 2nd fl,</div>
-            <div>Flushing, NY 11354</div>
+          <div class="flex flex-col justify-center items-center text-[15px] font-[400] mac:text-[1rem]">
+            <div class="teko">133-55 Roosevelt Ave 2nd fl,</div>
+            <div class="teko">Flushing, NY 11354</div>
           </div>
         </div>
+        <div class="bg-[#EAEAEA] h-[5rem] flex items-center justify-center tablet:hidden tea">If you would like
+          to schedule
+          a
+          tattoo consultation, please call (646) 379-9995.</div>
       </div>
       <div class="hidden tablet:flex tablet:flex-col justify-center items-center bg-black text-white pt-[5rem]">
         <div class="text-[2rem] font-[700] tablet:w-[80%] tablet:text-center tablet:text-[32px] mb-[1.5rem] w-fit teko">
@@ -32,16 +36,13 @@
           class="bg-white px-[22px] py-[1rem] my-[2.5rem] font-[500] text-black w-max cursor-pointer underline mobile:py-[8px] teko">
           <a :href="'tel:646-379-9995'">Call to book (646) 379-9995</a>
         </div>
-        <div class="flex flex-col justify-center items-center text-[1rem] font-[400] teko">
-          <div>133-55 Roosevelt Ave 2nd fl,</div>
-          <div>Flushing, NY 11354</div>
+        <div class="flex flex-col justify-center items-center text-[14px] font-[400] teko">
+          <div class="teko">133-55 Roosevelt Ave 2nd fl,</div>
+          <div class="teko">Flushing, NY 11354</div>
         </div>
         <img class="mt-[5.5rem] w-full" src="@/assets/img/bannerPhone.png" alt="">
       </div>
     </div>
-    <div class="bg-[#EAEAEA] h-[5rem] flex items-center justify-center tablet:hidden teko">If you would like to schedule
-      a
-      tattoo consultation, please call (646) 379-9995.</div>
     <div id="ABOUT" class="px-[10%] flex py-[12rem] justify-evenly tablet:py-[109px] mac:py-[8rem]">
       <div class="w-[50%] flex flex-col justify-center items-center tablet:hidden">
         <div class="w-[405px] flex justify-center items-center">
@@ -49,37 +50,44 @@
         </div>
       </div>
       <div class="w-[50%] flex flex-col items-center tablet:hidden">
-        <div class="flex flex-col items-center justify-center text-[2rem] font-[400] mb-[2rem] teko">
-          <div>SERVICE BEYOND </div>
-          <div>EXPECTATION</div>
+        <div class="flex flex-col items-center justify-center text-[48px] font-[400] mb-[2rem]">
+          <div class="teko">SERVICE BEYOND </div>
+          <div class="teko">EXPECTATION</div>
         </div>
-        <div class="w-full teko">
-          7号铁刺青(7 Train Tattoo )专业纹身-穿孔。由多次获得“纽约国际纹身博览会”大奖的
-          Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。我们的纹身师们具备丰富的创意和技术，可以为你实现各种纹身设计。我们擅长新/日传统纹身
-          (Neotraditional tattoo/Traditionaltattoo)，日式纹身(Japanesetattoo)欧美写实纹身(Realistic tattoo),细线纹身(Fine line
-          tattoo)，肖像纹身，美式(Old School)纹身，纹身覆盖等等。
-          欢迎咨询:646-379-9995
-          地址:133-55 Roosevelt Ave,2ndfloor, Flushing,NY 11354(纽约法拉盛)
-          7 Train Tattoo - Professional Tattoo & Piercing Studio. Led by award-winning artist Mr. Ricky, a multiple-time
-          winner at the New York International Tattoo Expo, our team of skilled tattoo artists is dedicated to providing
-          a top-quality tattoo experience with a focus on hygiene and safety. We take the time to listen to your ideas
-          and needs, working closely with you to create unique and stunning tattoo pieces. Our expertise includes
-          Neo-traditional and Traditional tattoos, Japanese tattoos, Realistic tattoos, Fine line tattoos, Portrait
-          tattoos, Old School tattoos, and tattoo cover-ups.
+        <div class="w-full">
+          <div class="noto text-[#636262] text-center">
+            7号铁刺青(7 Train Tattoo )专业纹身-穿孔。由多次获得“纽约国际纹身博览会”大奖的
+            Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。我们的纹身师们具备丰富的创意和技术，可以为你实现各种纹身设计。我们擅长新/日传统纹身
+            (Neotraditional tattoo/Traditionaltattoo)，日式纹身(Japanesetattoo)欧美写实纹身(Realistic tattoo),细线纹身(Fine line
+            tattoo)，肖像纹身，美式(Old School)纹身，纹身覆盖等等。<br /><br />
+            欢迎咨询:646-379-9995<br />
+            地址:133-55 Roosevelt Ave,2ndfloor, Flushing,NY 11354(纽约法拉盛)
+          </div>
+          <div class="tea text-[#636262] mt-[8px]">
+            7 Train Tattoo - Professional Tattoo & Piercing Studio. Led by award-winning artist Mr. Ricky, a
+            multiple-time
+            winner at the New York International Tattoo Expo, our team of skilled tattoo artists is dedicated to
+            providing
+            a top-quality tattoo experience with a focus on hygiene and safety. We take the time to listen to your ideas
+            and needs, working closely with you to create unique and stunning tattoo pieces. Our expertise includes
+            Neo-traditional and Traditional tattoos, Japanese tattoos, Realistic tattoos, Fine line tattoos, Portrait
+            tattoos, Old School tattoos, and tattoo cover-ups.
+          </div>
         </div>
       </div>
       <div class="desktop:hidden mac:hidden laptop:hidden flex flex-col justify-center items-center">
         <div class="text-[36px] font-[700] mb-[14px] whitespace-nowrap text-center teko">SERVICE BEYOND <br>EXPECTATION
         </div>
-        <div class="text-[14px] font-[400] leading-[20px] teko">
+        <div class="text-[14px] font-[400] leading-[20px] noto text-[#636262]">
           7号铁刺青(7 Train Tattoo )专业纹身-穿孔。由多次获得“纽约国际纹身博览会”大奖的
           Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。我们的纹身师们具备丰富的创意和技术，可以为你实现各种纹身设计。我们擅长新/日传统纹身
           (Neotraditional tattoo/Traditionaltattoo)，日式纹身(Japanesetattoo)欧美写实纹身(Realistic tattoo),细线纹身(Fine line
           tattoo)，肖像纹身，美式(Old School)纹身，纹身覆盖等等。
         </div>
-        <div class="text-center teko">欢迎咨询:646-379-9995</div>
-        <div class="text-center mb-[2rem] teko">地址:133-55 Roosevelt Ave,2ndfloor, Flushing,NY 11354(纽约法拉盛)</div>
-        <div class="teko">
+        <div class="text-center noto text-[#636262]">欢迎咨询:646-379-9995</div>
+        <div class="text-center mb-[2rem] noto text-[#636262]">地址:133-55 Roosevelt Ave,2ndfloor, Flushing,NY
+          11354(纽约法拉盛)</div>
+        <div class="teko text-[#636262] font-[400]">
           7 Train Tattoo - Professional Tattoo & Piercing Studio. Led by award-winning artist Mr. Ricky, a multiple-time
           winner at the New York International Tattoo Expo, our team of skilled tattoo artists is dedicated to providing
           a top-quality tattoo experience with a focus on hygiene and safety. We take the time to listen to your ideas
@@ -91,9 +99,56 @@
       </div>
     </div>
     <!-- 刺青師介紹電腦版 -->
+    <div
+      class="w-full text-center text-black text-[40px] teko font-[500] mb-[35px] laptop:text-[36px] tablet:text-[36px]">
+      Artist & Showcase</div>
     <div class="px-[90px] mb-[119px] laptop:hidden tablet:hidden">
-      <div class="w-full bg-[#EAEAEA] py-[105px] flex items-center gap-[8vw] px-[150px] justify-between">
-        <div class="flex flex-col items-center gap-[13px]">
+      <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[8vw] px-[60px] justify-between">
+        <div class="flex w-full gap-[45px] items-center justify-center">
+          <div class="flex flex-col gap-[16px] w-[40%] items-center">
+            <span class="teko font-[500] text-[24px]">Ricky Chen</span>
+            <img class="w-[489px]" src="@/assets/img/ricky.png" alt="contact">
+          </div>
+          <div class="w-[45%] flex flex-col gap-[10px]">
+            <span
+              class="noto text-[15px] font-[400]">Ricky先生曾经是中国青年艺术家，多次获过全国及国际书画艺术大奖，2015年还在华盛顿国会山庄获过艺术成就奖，并由国会议员、参众两院财政委员会主席：卡罗林-玛罗尼亲自颁奖。后来改行做为纹身艺术家，纹身作品又在纽约国际纹身博览会中多次获过纹身一等奖、二等奖、三等奖等等。
+              擅长亚洲风格、写实风格、彩色黑白等等。他的独特构图和错综复杂的细节使得纹身作品与众不同，无论是从近看还是远观。
+            </span>
+            <br />
+            <span class="tea text-[15px] font-[400]">
+              Mr. Ricky was once a prominent young Chinese artist celebrated for his exceptional calligraphy and
+              painting
+              skills, winning numerous national and international awards. In 2015, he received an Artistic Achievement
+              Award
+              at Capitol Hill in Washington, D.C., presented by Congresswoman Carolyn Maloney, highlighting his impact
+              on
+              the art community.
+              Later, he transitioned to tattoo artistry, quickly gaining recognition for his work at the New York
+              International Tattoo Expo, where he won multiple first, second, and third prizes. Mr. Ricky excels in
+              various
+              styles, including Asian, realistic, and both colored and black-and-white tattoos. His unique compositions
+              and
+              intricate details make his tattoos stand out, inviting admiration from both close up and afar. His journey
+              reflects a remarkable evolution in his artistic expression, merging traditional techniques with modern
+              aesthetics.
+            </span>
+          </div>
+        </div>
+        <div class="w-full px-[40px]">
+          <Carousel :snapAlign="'center'" :breakpoints="breakpoints" :wrapAround="true">
+            <Slide v-for="r in 9" :key="r">
+              <div class="carousel__item" @click="show('r', r)">
+                <!-- <img :src="getAssetsFile(`carousel/c${slide}.png`)"
+                  class="w-[220px] h-[281px] object-cover cursor-pointer"> -->
+                <img :src="getAssetsImgFile('r', `r${r}.png`)" alt="">
+              </div>
+            </Slide>
+            <template #addons>
+              <Navigation />
+            </template>
+          </Carousel>
+        </div>
+        <!-- <div class="flex flex-col items-center gap-[13px]">
           <span class="teko font-[500] text-[36px] mac:text-[24px] teko">Ricky Chen</span>
           <img class="w-[489px]" src="@/assets/img/ricky.png" alt="contact">
           <div class="w-[453px] text-[20px] font-[400] text-center mac:text-[15px] teko">多次获得“纽约国际纹身博览会”大奖的
@@ -103,12 +158,44 @@
         </div>
         <div class="flex flex-wrap gap-[26px]">
           <img :src="getAssetsImgFile('r', `r${r}.png`)" alt="" v-for="r in 9" @click="show('r', r)">
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="px-[90px] mb-[119px] laptop:hidden tablet:hidden">
-      <div class="w-full bg-[#EAEAEA] py-[105px] flex items-center gap-[8vw] px-[150px] justify-between">
-        <div class="flex flex-wrap gap-[26px]">
+      <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[8vw] px-[60px] justify-between">
+        <div class="flex w-full gap-[45px] items-center justify-center">
+          <div class="w-[45%] flex flex-col gap-[10px]">
+            <span class="noto text-[15px] font-[400]">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
+              细线纹身，细小纹身等等。他讲究细节，构图精致，都能体现他的坚实的艺术基础。
+            </span>
+            <br />
+            <span class="tea text-[15px] font-[400]">
+              Master Danny has loved art since he was a child, and now he is a tattoo artist with many years of
+              experience. He is good at Asian style, Chinese watercolor tattoos, fine line tattoos, small tattoos, etc.
+              His attention to details and his composition is exquisite, which can reflect his solid artistic
+              foundation.
+            </span>
+          </div>
+          <div class="flex flex-col gap-[16px] w-[40%] items-center">
+            <span class="teko font-[500] text-[24px]">Danny</span>
+            <img class="w-[489px]" src="@/assets/img/danny.png" alt="contact">
+          </div>
+        </div>
+        <div class="w-full px-[40px]">
+          <Carousel :snapAlign="'center'" :breakpoints="breakpoints" :wrapAround="true">
+            <Slide v-for="d in 9" :key="d">
+              <div class="carousel__item" @click="show2('d', d)">
+                <!-- <img :src="getAssetsFile(`carousel/c${slide}.png`)"
+                  class="w-[220px] h-[281px] object-cover cursor-pointer"> -->
+                <img :src="getAssetsImgFile('d', `d${d}.png`)" alt="">
+              </div>
+            </Slide>
+            <template #addons>
+              <Navigation />
+            </template>
+          </Carousel>
+        </div>
+        <!-- <div class="flex flex-wrap gap-[26px]">
           <img :src="getAssetsImgFile('d', `d${d}.png`)" alt="" v-for="d in 9" @click="show2('d', d)">
         </div>
         <div class="flex flex-col items-center gap-[13px]">
@@ -121,7 +208,7 @@
             experience. He is good at Asian style, Chinese watercolor tattoos, fine line tattoos, small tattoos, etc.
             His attention to details and his composition is exquisite, which can reflect his solid artistic foundation.
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="px-[90px] laptop:hidden tablet:hidden">
@@ -138,10 +225,25 @@
       <div class="flex flex-col items-center gap-[18px]">
         <span class="teko font-[500] text-[36px] mac:text-[24px]">Ricky Chen</span>
         <img src="@/assets/img/ricky.png" alt="contact">
-        <div class="text-[14px] text-center teko">
-          Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。
-          Award-winning tattoo artist Mr. Ricky, renowned for his multiple accolades at the New York International
-          Tattoo Expo.</div>
+        <div class="text-[14px] teko flex flex-col gap-[5px]">
+          <span
+            class="noto">Ricky先生曾经是中国青年艺术家，多次获过全国及国际书画艺术大奖，2015年还在华盛顿国会山庄获过艺术成就奖，并由国会议员、参众两院财政委员会主席：卡罗林-玛罗尼亲自颁奖。后来改行做为纹身艺术家，纹身作品又在纽约国际纹身博览会中多次获过纹身一等奖、二等奖、三等奖等等。
+            擅长亚洲风格、写实风格、彩色黑白等等。他的独特构图和错综复杂的细节使得纹身作品与众不同，无论是从近看还是远观。</span><br />
+          <span class="tea">
+            Mr. Ricky was once a prominent young Chinese artist celebrated for his exceptional calligraphy and painting
+            skills, winning numerous national and international awards. In 2015, he received an Artistic Achievement
+            Award
+            at Capitol Hill in Washington, D.C., presented by Congresswoman Carolyn Maloney, highlighting his impact on
+            the art community.
+            Later, he transitioned to tattoo artistry, quickly gaining recognition for his work at the New York
+            International Tattoo Expo, where he won multiple first, second, and third prizes. Mr. Ricky excels in
+            various
+            styles, including Asian, realistic, and both colored and black-and-white tattoos. His unique compositions
+            and
+            intricate details make his tattoos stand out, inviting admiration from both close up and afar. His journey
+            reflects a remarkable evolution in his artistic expression, merging traditional techniques with modern
+            aesthetics.</span>
+        </div>
       </div>
       <div class="flex flex-wrap gap-x-[30px] gap-y-[17px] justify-center mt-[53px]">
         <img class="w-[30vw]" :src="getAssetsImgFile('rm', `r${r}.png`)" alt="" v-for="r in 8">
@@ -152,11 +254,15 @@
       <div class="flex flex-col items-center gap-[18px]">
         <span class="teko font-[500] text-[36px] mac:text-[24px]">Danny</span>
         <img src="@/assets/img/danny.png" alt="contact">
-        <div class="text-[14px] text-center teko">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
-          细线纹身，细小纹身等等。他讲究细节，构图精致，都能体现他的坚实的艺术基础。
-          Master Danny has loved art since he was a child, and now he is a tattoo artist with many years of experience.
-          He is good at Asian style, Chinese watercolor tattoos, fine line tattoos, small tattoos, etc. His attention to
-          details and his composition is exquisite, which can reflect his solid artistic foundation.</div>
+        <div class="text-[14px] teko flex flex-col gap-[5px]">
+          <span class="noto">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
+            细线纹身，细小纹身等等。他讲究细节，构图精致，都能体现他的坚实的艺术基础。</span><br />
+          <span class="tea">
+            Master Danny has loved art since he was a child, and now he is a tattoo artist with many years of
+            experience. He is good at Asian style, Chinese watercolor tattoos, fine line tattoos, small tattoos, etc.
+            His attention to details and his composition is exquisite, which can reflect his solid artistic
+            foundation.</span>
+        </div>
       </div>
       <div class="flex flex-wrap gap-x-[30px] gap-y-[17px] justify-center mt-[53px]">
         <img class="w-[30vw]" :src="getAssetsImgFile('d', `d${r}.png`)" alt="" v-for="r in 8">
@@ -217,28 +323,28 @@
     </div>
     <div id="CONTACT" class="mx-[20%] flex flex-col justify-center items-center">
       <div
-        class="text-[2rem] mac:text-[1.5rem] font-[500] tablet:leading-[2rem] tablet:text-[1.5rem] tablet:text-center">7
+        class="text-[2rem] mac:text-[1.5rem] font-[500] tablet:leading-[2rem] tablet:text-[1.5rem] tablet:text-center teko">7
         Train Tattoo Studio– Professional Tattooing and Piercing</div>
-      <div class="text-[1.5rem] mac:text-[1rem] font-[400] text-center my-[2rem] tablet:text-[1rem]">
+      <div class="text-[1.5rem] mac:text-[1rem] font-[400] my-[2rem] tablet:text-[1rem] tea">
         Led by award-winning tattoo artist Ricky, who has won multiple honors at the New York International Tattoo Expo,
         our team is dedicated to providing you with a high-quality tattoo experience in a safe and hygienic environment.
         We listen carefully to your ideas and work with you to create a unique, stunning tattoo.
       </div>
-      <div class="text-[1.5rem] mac:text-[1rem] font-[400] my-[2rem] text-center tablet:text-[1rem]">
+      <div class="text-[1.5rem] mac:text-[1rem] font-[400] tablet:text-[1rem] tea">
         Our artists are skilled in a variety of styles, including Neo-traditional, Traditional, Japanese, Realistic,
         Fine Line, Portrait, Old School, and cover-up tattoos. Danny, another highly experienced artist on our team,
         specializes in Asian styles, Chinese watercolor, fine line, and small tattoos, with a keen eye for detail and
         refined compositions.
       </div>
-      <div class="text-[1.5rem] mac:text-[1rem] font-[600] tablet:text-[1rem]">Book your appointment today! </div>
-      <div class="text-[1.5rem] mac:text-[1rem] font-[600] tablet:text-[1rem]">Call (646) 379-9995 for consultation.
+      <div class="text-[1.5rem] mac:text-[1rem] font-[600] tablet:text-[1rem] tea mt-[40px]">Book your appointment today! </div>
+      <div class="text-[1.5rem] mac:text-[1rem] font-[600] tablet:text-[1rem] tea">Call (646) 379-9995 for consultation.
       </div>
     </div>
     <div
       class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:flex-col tablet:my-[5rem] tablet:px-[20px]">
-      <img src="@/assets/img/contactImg1.png" alt="" class="w-full">
-      <img src="@/assets/img/contactImg2.png" alt="" class="w-full">
-      <img src="@/assets/img/contactImg3.png" alt="" class="w-full">
+      <img src="@/assets/img/contactImg1.png" alt="" class="h-[412px] object-contain">
+      <img src="@/assets/img/contactImg2.png" alt="" class="h-[412px] object-contain">
+      <img src="@/assets/img/contactImg3.png" alt="" class="h-[412px] object-contain">
     </div>
   </div>
   <div
@@ -270,6 +376,8 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { getAssetsImgFile } from '../utils/commonUse'
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import 'vue3-carousel/dist/carousel.css'
 const content = ref(null)
 const menu1List = ref(['COFFEE', 'SPECIALTY LATTE', 'FRIZZY SPARKLING & SLUSH', 'FRESH FRUIT  TEA'])
 const menu2List = ref(['SPECIAL SMOOTHIE', 'LEMONADE', 'FOOD'])
@@ -313,14 +421,71 @@ const changePicIndex = (type) => {
 const changePicIndex2 = (type) => {
   type == 'back' ? nowIndex2.value -= 1 : nowIndex2.value += 1
 }
+const breakpoints = {
+  // 700px and up
+  700: {
+    itemsToShow: 3,
+    snapAlign: 'center',
+  },
+  // 1024 and up
+  1290: {
+    itemsToShow: 6,
+    snapAlign: 'start',
+  },
+}
 </script>
 
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 .teko {
   font-family: "Teko", sans-serif;
 }
+.noto{
+  font-family: "Noto Sans", sans-serif;
+}
+.tea{
+  font-family: "Teachers", sans-serif;
+}
 .pic {
   background-color: rgba(0, 0, 0, 0.7);
+}
+:deep(.carousel__next) {
+  transform: translate(50px, -30px);
+  width: 41px;
+  height: 41px;
+  background-image: url(@/assets/img/ev2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  .carousel__icon {
+    display: none;
+  }
+}
+
+:deep(.carousel__prev) {
+  transform: translate(-50px, -30px);
+  width: 41px;
+  height: 41px;
+  background-image: url(@/assets/img/ev.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  .carousel__icon {
+    display: none;
+  }
+}
+
+:deep(.carousel__pagination) {
+  .carousel__pagination-item {
+    .carousel__pagination-button {
+      &::after {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+      }
+    }
+  }
 }
 </style>
