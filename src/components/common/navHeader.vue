@@ -39,15 +39,15 @@ const goUrl = (url?: string) => {
           <img class="w-[59px] h-[59px] object-contain" src="@/assets/img/logo.png" alt="logo">
           <div class="whitespace-nowrap text-[20px] font-[400] tablet:text-[15px] teko">7 Train Tattoo Studio Inc</div>
         </div>
-        <div class="flex gap-[32px] text-black laptop:hidden tablet:hidden text-[15px]">
+        <div class="flex gap-[32px] text-black laptop:hidden tablet:hidden text-[17px]">
           <div v-for="(link, idx) in optionList" :key="idx" @click="scrollTo(link)" class="cursor-pointer teko">{{ link
             }}</div>
         </div>
       </div>
 
       <div
-        class="whitespace-nowrap tablet:hidden laptop:hidden text-white bg-[#000] font-[500] px-[18px] py-[12px] rounded-full underline cursor-pointer teko">
-        <a :href="'tel:646-379-9995'">BOOK NOW: 646-379-9995</a>
+        class="whitespace-nowrap tablet:hidden laptop:hidden text-white bg-[#000] font-[500] h-[32px] px-[24px] py-[6px] rounded-full cursor-pointer flex justify-center items-center">
+        <a :href="'tel:646-379-9995'" class="text-[17px] teko">BOOK NOW: 646-379-9995</a>
       </div>
     </div>
     <!-- <img src="@/assets/img/menu.svg" class="absolute top-[16px] right-4 cursor-pointer desktop:hidden mac:hidden tablet:hidden" @click="showHamburger = true"> -->

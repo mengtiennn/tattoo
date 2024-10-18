@@ -4,21 +4,19 @@
       <div class="w-full h-full tablet:hidden px-[78px]">
         <img class="w-full h-full object-cover object-top" src="@/assets/img/banner.png" alt="">
         <div
-          class="w-fit absolute text-white left-[10%] top-[25%] flex flex-col gap-2 items-center tablet:left-0 tablet:top-[10%]">
-          <div
-            class="text-[2rem] font-[700] tablet:w-[80%] tablet:text-center tablet:text-[32px] mb-[1.5rem] w-fit teko">
+          class="w-fit absolute text-white left-[20%] top-[25%] flex flex-col items-center tablet:left-0 tablet:top-[10%]">
+          <div class="text-[48px] font-[400] tablet:w-[80%] tablet:text-center tablet:text-[32px] w-fit teko">
             7 TRAIN TATTOO STUDIO INC</div>
           <div class="flex flex-col tablet:text-center w-fit">
-            <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit teko">Ink Your Story, Wear Your Soul.</div>
+            <div class="text-[24px] font-[300] tablet:text-[14px] w-fit teko">Ink Your Story, Wear Your Soul.</div>
           </div>
           <div class="desktop:hidden mac:hidden laptop:hidden w-[1px] h-[67px] bg-white my-[1.2rem]" />
           <div
-            class="bg-white px-[22px] py-[1rem] my-[2.5rem] font-[500] text-black w-max cursor-pointer underline mobile:py-[8px] teko">
+            class="bg-white px-[22px] text-[24px] py-[1rem] my-[2.5rem] font-[400] text-black w-max cursor-pointer mobile:py-[8px] teko rounded-[20px]">
             <a :href="'tel:646-379-9995'">Call to book (646) 379-9995</a>
           </div>
-          <div class="flex flex-col justify-center items-center text-[15px] font-[400] mac:text-[1rem]">
-            <div class="teko">133-55 Roosevelt Ave 2nd fl,</div>
-            <div class="teko">Flushing, NY 11354</div>
+          <div class="flex flex-col justify-center items-center text-[20px] font-[300] mac:text-[1rem]">
+            <div class="teko tracking-widest">133-55 Roosevelt Ave 2nd fl, Flushing, NY 11354</div>
           </div>
         </div>
         <div class="bg-[#EAEAEA] h-[5rem] flex items-center justify-center tablet:hidden tea">If you would like
@@ -26,19 +24,20 @@
           a
           tattoo consultation, please call (646) 379-9995.</div>
       </div>
-      <div class="hidden tablet:flex tablet:flex-col justify-center items-center bg-black text-white pt-[5rem]">
-        <div class="text-[2rem] font-[700] tablet:w-[80%] tablet:text-center tablet:text-[32px] mb-[1.5rem] w-fit teko">
-          7 TRAIN TATTOO STUDIO INC</div>
-        <div class="flex flex-col tablet:text-center w-fit mb-[2rem]">
-          <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit teko">Ink Your Story, Wear Your Soul.</div>
-        </div>
+      <div class="hidden tablet:flex tablet:flex-col justify-center items-center bg-black text-white pt-[3rem]">
         <div
-          class="bg-white px-[22px] py-[1rem] my-[2.5rem] font-[500] text-black w-max cursor-pointer underline mobile:py-[8px] teko">
-          <a :href="'tel:646-379-9995'">Call to book (646) 379-9995</a>
+          class="text-[36px] font-[400] tracking-wide tablet:w-[80%] tablet:text-center tablet:text-[32px] w-fit teko">
+          7 TRAIN TATTOO<br />STUDIO INC</div>
+        <!-- <div class="flex flex-col tablet:text-center w-fit mb-[2rem]">
+          <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit teko">Ink Your Story, Wear Your Soul.</div>
+        </div> -->
+        <div
+          class="text-white px-[22px] py-[1rem] my-[2.5rem] font-[400] text-[18px] w-max cursor-pointer mobile:py-[8px] teko rounded-[20px]"
+          style="border: 1px solid white">
+          <a :href="'tel:646-379-9995'" class="tracking-wide">Call to book (646) 379-9995</a>
         </div>
-        <div class="flex flex-col justify-center items-center text-[14px] font-[400] teko">
-          <div class="teko">133-55 Roosevelt Ave 2nd fl,</div>
-          <div class="teko">Flushing, NY 11354</div>
+        <div class="flex flex-col justify-center items-center text-[14px] font-[400]">
+          <div class="tea">133-55 Roosevelt Ave 2nd fl,Flushing, NY 11354</div>
         </div>
         <img class="mt-[5.5rem] w-full" src="@/assets/img/bannerPhone.png" alt="">
       </div>
@@ -54,7 +53,7 @@
           <div class="teko">SERVICE BEYOND </div>
           <div class="teko">EXPECTATION</div>
         </div>
-        <div class="w-full">
+        <div class="w-[90%]">
           <div class="noto text-[#636262] text-center">
             7号铁刺青(7 Train Tattoo )专业纹身-穿孔。由多次获得“纽约国际纹身博览会”大奖的
             Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。我们的纹身师们具备丰富的创意和技术，可以为你实现各种纹身设计。我们擅长新/日传统纹身
@@ -63,7 +62,7 @@
             欢迎咨询:646-379-9995<br />
             地址:133-55 Roosevelt Ave,2ndfloor, Flushing,NY 11354(纽约法拉盛)
           </div>
-          <div class="tea text-[#636262] mt-[8px]">
+          <div class="tea text-[#636262] mt-[16px] text-center">
             7 Train Tattoo - Professional Tattoo & Piercing Studio. Led by award-winning artist Mr. Ricky, a
             multiple-time
             winner at the New York International Tattoo Expo, our team of skilled tattoo artists is dedicated to
@@ -76,18 +75,18 @@
         </div>
       </div>
       <div class="desktop:hidden mac:hidden laptop:hidden flex flex-col justify-center items-center">
-        <div class="text-[36px] font-[700] mb-[14px] whitespace-nowrap text-center teko">SERVICE BEYOND <br>EXPECTATION
+        <div class="text-[36px] font-[400] mb-[14px] whitespace-nowrap text-center teko">SERVICE BEYOND<br />EXPECTATION
         </div>
-        <div class="text-[14px] font-[400] leading-[20px] noto text-[#636262]">
+        <div class="text-[14px] font-[400] leading-[20px] noto text-[#636262] text-center w-[85%]">
           7号铁刺青(7 Train Tattoo )专业纹身-穿孔。由多次获得“纽约国际纹身博览会”大奖的
           Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。我们的纹身师们具备丰富的创意和技术，可以为你实现各种纹身设计。我们擅长新/日传统纹身
           (Neotraditional tattoo/Traditionaltattoo)，日式纹身(Japanesetattoo)欧美写实纹身(Realistic tattoo),细线纹身(Fine line
           tattoo)，肖像纹身，美式(Old School)纹身，纹身覆盖等等。
         </div>
-        <div class="text-center noto text-[#636262]">欢迎咨询:646-379-9995</div>
+        <div class="text-center noto text-[#636262] mt-[8px]">欢迎咨询:646-379-9995</div>
         <div class="text-center mb-[2rem] noto text-[#636262]">地址:133-55 Roosevelt Ave,2ndfloor, Flushing,NY
           11354(纽约法拉盛)</div>
-        <div class="teko text-[#636262] font-[400]">
+        <div class="text-[#636262] font-[400] text-center w-[85%] tea">
           7 Train Tattoo - Professional Tattoo & Piercing Studio. Led by award-winning artist Mr. Ricky, a multiple-time
           winner at the New York International Tattoo Expo, our team of skilled tattoo artists is dedicated to providing
           a top-quality tattoo experience with a focus on hygiene and safety. We take the time to listen to your ideas
@@ -105,17 +104,17 @@
     <div class="px-[90px] mb-[119px] laptop:hidden tablet:hidden">
       <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[8vw] px-[60px] justify-between">
         <div class="flex w-full gap-[45px] items-center justify-center">
-          <div class="flex flex-col gap-[16px] w-[40%] items-center">
+          <div class="flex flex-col gap-[16px] w-[30%] items-center">
             <span class="teko font-[500] text-[24px]">Ricky Chen</span>
-            <img class="w-[489px]" src="@/assets/img/ricky.png" alt="contact">
+            <img class="w-[277px]" src="@/assets/img/ricky.png" alt="contact">
           </div>
-          <div class="w-[45%] flex flex-col gap-[10px]">
+          <div class="w-[55%] flex flex-col gap-[10px]">
             <span
-              class="noto text-[15px] font-[400]">Ricky先生曾经是中国青年艺术家，多次获过全国及国际书画艺术大奖，2015年还在华盛顿国会山庄获过艺术成就奖，并由国会议员、参众两院财政委员会主席：卡罗林-玛罗尼亲自颁奖。后来改行做为纹身艺术家，纹身作品又在纽约国际纹身博览会中多次获过纹身一等奖、二等奖、三等奖等等。
+              class="noto text-[15px] font-[400] text-center">Ricky先生曾经是中国青年艺术家，多次获过全国及国际书画艺术大奖，2015年还在华盛顿国会山庄获过艺术成就奖，并由国会议员、参众两院财政委员会主席：卡罗林-玛罗尼亲自颁奖。后来改行做为纹身艺术家，纹身作品又在纽约国际纹身博览会中多次获过纹身一等奖、二等奖、三等奖等等。
               擅长亚洲风格、写实风格、彩色黑白等等。他的独特构图和错综复杂的细节使得纹身作品与众不同，无论是从近看还是远观。
             </span>
             <br />
-            <span class="tea text-[15px] font-[400]">
+            <span class="tea text-[15px] font-[400] text-center">
               Mr. Ricky was once a prominent young Chinese artist celebrated for his exceptional calligraphy and
               painting
               skills, winning numerous national and international awards. In 2015, he received an Artistic Achievement
@@ -134,13 +133,13 @@
             </span>
           </div>
         </div>
-        <div class="w-full px-[40px]">
+        <div class="w-[80%] px-[40px]">
           <Carousel :snapAlign="'center'" :breakpoints="breakpoints" :wrapAround="true">
             <Slide v-for="r in 9" :key="r">
               <div class="carousel__item" @click="show('r', r)">
                 <!-- <img :src="getAssetsFile(`carousel/c${slide}.png`)"
                   class="w-[220px] h-[281px] object-cover cursor-pointer"> -->
-                <img :src="getAssetsImgFile('r', `r${r}.png`)" alt="">
+                <img :src="getAssetsImgFile('r', `r${r}.png`)" alt="" class="h-[150px] object-contain">
               </div>
             </Slide>
             <template #addons>
@@ -163,31 +162,31 @@
     </div>
     <div class="px-[90px] mb-[119px] laptop:hidden tablet:hidden">
       <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[8vw] px-[60px] justify-between">
-        <div class="flex w-full gap-[45px] items-center justify-center">
-          <div class="w-[45%] flex flex-col gap-[10px]">
-            <span class="noto text-[15px] font-[400]">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
+        <div class="flex w-[70%] gap-[45px] items-center justify-center">
+          <div class="w-[55%] flex flex-col gap-[10px]">
+            <span class="noto text-[15px] font-[400] text-center">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
               细线纹身，细小纹身等等。他讲究细节，构图精致，都能体现他的坚实的艺术基础。
             </span>
             <br />
-            <span class="tea text-[15px] font-[400]">
+            <span class="tea text-[15px] font-[400] text-center">
               Master Danny has loved art since he was a child, and now he is a tattoo artist with many years of
               experience. He is good at Asian style, Chinese watercolor tattoos, fine line tattoos, small tattoos, etc.
               His attention to details and his composition is exquisite, which can reflect his solid artistic
               foundation.
             </span>
           </div>
-          <div class="flex flex-col gap-[16px] w-[40%] items-center">
+          <div class="flex flex-col gap-[16px] w-[30%] items-center">
             <span class="teko font-[500] text-[24px]">Danny</span>
-            <img class="w-[489px]" src="@/assets/img/danny.png" alt="contact">
+            <img class="w-[232px]" src="@/assets/img/danny.png" alt="contact">
           </div>
         </div>
-        <div class="w-full px-[40px]">
+        <div class="w-[80%] px-[40px]">
           <Carousel :snapAlign="'center'" :breakpoints="breakpoints" :wrapAround="true">
             <Slide v-for="d in 9" :key="d">
               <div class="carousel__item" @click="show2('d', d)">
                 <!-- <img :src="getAssetsFile(`carousel/c${slide}.png`)"
                   class="w-[220px] h-[281px] object-cover cursor-pointer"> -->
-                <img :src="getAssetsImgFile('d', `d${d}.png`)" alt="">
+                <img :src="getAssetsImgFile('d', `d${d}.png`)" alt="" class="h-[161px]">
               </div>
             </Slide>
             <template #addons>
@@ -215,7 +214,7 @@
       <div class="w-full bg-[#EAEAEA] px-[252px] flex items-center h-[905px]">
         <div class="flex flex-col items-center gap-[13px]">
           <span class="teko font-[500] text-[36px] mac:text-[24px]">Kimberly</span>
-          <img src="@/assets/img/kimberly.png" alt="contact">
+          <img src="@/assets/img/kimberly.png" alt="contact" class="w-[266px]">
         </div>
       </div>
     </div>
@@ -223,9 +222,9 @@
     <div
       class="hidden laptop:flex tablet:flex flex-col bg-[#EAEAEA] pt-[84px] pb-[106px] px-[30px] justify-center mb-[54px]">
       <div class="flex flex-col items-center gap-[18px]">
-        <span class="teko font-[500] text-[36px] mac:text-[24px]">Ricky Chen</span>
-        <img src="@/assets/img/ricky.png" alt="contact">
-        <div class="text-[14px] teko flex flex-col gap-[5px]">
+        <span class="teko font-[400] text-[24px] mac:text-[24px]">Ricky Chen</span>
+        <img src="@/assets/img/ricky.png" alt="contact" class="w-[80%]">
+        <div class="text-[14px] teko flex flex-col gap-[5px] w-[80%]">
           <span
             class="noto">Ricky先生曾经是中国青年艺术家，多次获过全国及国际书画艺术大奖，2015年还在华盛顿国会山庄获过艺术成就奖，并由国会议员、参众两院财政委员会主席：卡罗林-玛罗尼亲自颁奖。后来改行做为纹身艺术家，纹身作品又在纽约国际纹身博览会中多次获过纹身一等奖、二等奖、三等奖等等。
             擅长亚洲风格、写实风格、彩色黑白等等。他的独特构图和错综复杂的细节使得纹身作品与众不同，无论是从近看还是远观。</span><br />
@@ -252,12 +251,12 @@
     <div
       class="hidden laptop:flex tablet:flex flex-col bg-[#EAEAEA] pt-[84px] pb-[106px] px-[30px] justify-center mb-[54px]">
       <div class="flex flex-col items-center gap-[18px]">
-        <span class="teko font-[500] text-[36px] mac:text-[24px]">Danny</span>
-        <img src="@/assets/img/danny.png" alt="contact">
-        <div class="text-[14px] teko flex flex-col gap-[5px]">
+        <span class="teko font-[500] text-[24px] mac:text-[24px]">Danny</span>
+        <img src="@/assets/img/danny.png" alt="contact" class="w-[80%]">
+        <div class="text-[14px] teko flex flex-col gap-[5px] w-[80%]">
           <span class="noto">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
             细线纹身，细小纹身等等。他讲究细节，构图精致，都能体现他的坚实的艺术基础。</span><br />
-          <span class="tea">
+          <span class="tea w-[90%]">
             Master Danny has loved art since he was a child, and now he is a tattoo artist with many years of
             experience. He is good at Asian style, Chinese watercolor tattoos, fine line tattoos, small tattoos, etc.
             His attention to details and his composition is exquisite, which can reflect his solid artistic
@@ -276,7 +275,32 @@
     </div>
     <!-- contact 電腦版 -->
     <div class="w-full flex justify-center items-center py-[247px] laptop:hidden tablet:hidden">
-      <div class="w-fit h-fit relative">
+      <div class="flex">
+        <img src="@/assets/img/contactphoto.png" alt="" class="w-[410px]">
+        <div
+          class="w-[295px] h-[333px] bg-[#292929] translate-x-[-40px] translate-y-[71px] flex flex-col justify-center">
+          <div class="flex flex-col gap-[4px] items-center">
+            <span class="text-[24px] font-[400] text-white teko mac:text-[24px] tracking-wide">LOCATION</span>
+            <span class="text-[15px] font-[300] text-white teko text-center mac:text-[15px] tracking-widest">133-55
+              Roosevelt
+              Ave<br />2nd fl, Flushing,
+              NY
+              11354</span>
+          </div>
+          <div class="flex flex-col gap-[4px] items-center mt-[33px]">
+            <span class="text-[24px] font-[400] text-white teko mac:text-[24px] tracking-wide">HOURS OF
+              OPERATION</span>
+            <span class="text-[15px] font-[300] text-white teko mac:text-[15px] tracking-widest">
+              Mon - Sat ______ 12AM - 7PM</span>
+            <span
+              class="text-[15px] font-[300] text-white teko mac:text-[15px] tracking-widest">&nbsp;&nbsp;&nbsp;&nbsp;Sunday
+              ______12AM
+              -
+              6PM</span>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="w-fit h-fit relative">
         <img src="@/assets/img/contact.png" alt="contact">
         <div class="flex flex-col absolute right-[90px] top-[50%] translate-y-[-45%] justify-between gap-[8px]">
           <div class="flex flex-col gap-[4px] items-center">
@@ -296,7 +320,7 @@
             <span class="text-[24px] font-[300] text-white teko mac:text-[15px]">Sunday --------- 12AM - 6PM</span>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <!-- contact 手機版 -->
     <div
@@ -304,40 +328,61 @@
       <img src="@/assets/img/mcontact.png" alt="" class="absolute top-[-100px]">
       <div class="flex flex-col justify-between gap-[46px]">
         <div class="flex flex-col gap-[4px] items-center">
-          <span class="text-[15px] font-[400] text-white teko">CONTACT</span>
-          <span class="text-[15px] font-[300] text-white teko">(646) 379-9995</span>
+          <span class="text-[24px] font-[400] text-white teko tracking-widest">CONTACT</span>
+          <span class="text-[18px] font-[300] text-[#D3D3D3] teko tracking-widest">(646) 379-9995</span>
         </div>
         <div class="flex flex-col gap-[4px] items-center">
-          <span class="text-[15px] font-[400] text-white teko">LOCATION</span>
-          <span class="text-[15px] font-[300] text-white teko text-center">133-55 Roosevelt
+          <span class="text-[24px] font-[400] text-white teko tracking-widest">LOCATION</span>
+          <span class="text-[18px] font-[300] text-[#D3D3D3] teko text-center tracking-widest">133-55 Roosevelt
             Ave<br />2nd fl, Flushing,
             NY
             11354</span>
         </div>
         <div class="flex flex-col gap-[4px] items-center">
-          <span class="text-[15px] font-[400] text-white teko">HOURS OF OPERATION</span>
-          <span class="text-[15px] font-[300] text-white teko">Mon - Sat --------- 12AM - 7PM</span>
-          <span class="text-[15px] font-[300] text-white teko">Sunday --------- 12AM - 6PM</span>
+          <span class="text-[24px] font-[400] text-white teko tracking-widest">HOURS OF OPERATION</span>
+          <span class="text-[18px] font-[300] text-[#D3D3D3] teko tracking-widest">Mon - Sat --------- 12AM - 7PM</span>
+          <span class="text-[18px] font-[300] text-[#D3D3D3] teko tracking-widest">Sunday --------- 12AM - 6PM</span>
         </div>
       </div>
     </div>
-    <div id="CONTACT" class="mx-[20%] flex flex-col justify-center items-center">
+    <div id="CONTACT" class="mx-[20%] flex flex-col justify-center items-center tablet:hidden">
       <div
-        class="text-[2rem] mac:text-[1.5rem] font-[500] tablet:leading-[2rem] tablet:text-[1.5rem] tablet:text-center teko">7
-        Train Tattoo Studio– Professional Tattooing and Piercing</div>
-      <div class="text-[1.5rem] mac:text-[1rem] font-[400] my-[2rem] tablet:text-[1rem] tea">
+        class="text-[28px] mac:text-[28px] font-[500] tablet:leading-[2rem] tablet:text-[1.5rem] tablet:text-center teko tracking-wide">
+        Professional Tattooing and Piercing</div>
+      <div class="text-[15px] mac:text-[15px] font-[400] my-[2rem] tablet:text-[1rem] tea text-center w-[80%]">
         Led by award-winning tattoo artist Ricky, who has won multiple honors at the New York International Tattoo Expo,
         our team is dedicated to providing you with a high-quality tattoo experience in a safe and hygienic environment.
         We listen carefully to your ideas and work with you to create a unique, stunning tattoo.
       </div>
-      <div class="text-[1.5rem] mac:text-[1rem] font-[400] tablet:text-[1rem] tea">
+      <div class="text-[15px] mac:text-[15px] font-[400] tablet:text-[1rem] tea text-center w-[80%]">
         Our artists are skilled in a variety of styles, including Neo-traditional, Traditional, Japanese, Realistic,
         Fine Line, Portrait, Old School, and cover-up tattoos. Danny, another highly experienced artist on our team,
         specializes in Asian styles, Chinese watercolor, fine line, and small tattoos, with a keen eye for detail and
         refined compositions.
       </div>
-      <div class="text-[1.5rem] mac:text-[1rem] font-[600] tablet:text-[1rem] tea mt-[40px]">Book your appointment today! </div>
-      <div class="text-[1.5rem] mac:text-[1rem] font-[600] tablet:text-[1rem] tea">Call (646) 379-9995 for consultation.
+      <div class="text-[15px] mac:text-[15px] font-[600] tablet:text-[1rem] tea mt-[40px]">Book your appointment
+        today! </div>
+      <div class="text-[15px] mac:text-[15px] font-[600] tablet:text-[1rem] tea">Call (646) 379-9995 for consultation.
+      </div>
+    </div>
+    <div id="CONTACT" class="flex-col justify-center items-center hidden tablet:flex px-[20px]">
+      <div
+        class="text-[36px] mac:text-[28px] font-[500] tablet:leading-[2rem] tablet:text-[1.5rem] tablet:text-center teko tracking-wide">
+        Professional<br/>Tattooing and Piercing</div>
+      <div class="text-[15px] mac:text-[15px] font-[400] my-[2rem] tablet:text-[1rem] tea text-center">
+        Led by award-winning tattoo artist Ricky, who has won multiple honors at the New York International Tattoo Expo,
+        our team is dedicated to providing you with a high-quality tattoo experience in a safe and hygienic environment.
+        We listen carefully to your ideas and work with you to create a unique, stunning tattoo.
+      </div>
+      <div class="text-[15px] mac:text-[15px] font-[400] tablet:text-[1rem] tea text-center">
+        Our artists are skilled in a variety of styles, including Neo-traditional, Traditional, Japanese, Realistic,
+        Fine Line, Portrait, Old School, and cover-up tattoos. Danny, another highly experienced artist on our team,
+        specializes in Asian styles, Chinese watercolor, fine line, and small tattoos, with a keen eye for detail and
+        refined compositions.
+      </div>
+      <div class="text-[15px] mac:text-[15px] font-[600] tablet:text-[1rem] tea mt-[40px]">Book your appointment
+        today! </div>
+      <div class="text-[15px] mac:text-[15px] font-[600] tablet:text-[1rem] tea">Call (646) 379-9995 for consultation.
       </div>
     </div>
     <div
@@ -353,7 +398,9 @@
   </div>
   <div class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center pic z-[1000]" v-if="showBigPhoto">
     <div class="absolute right-10 top-5 text-xl font-semibold z-20 text-white cursor-pointer"
-      @click="showBigPhoto = false">CLOSE</div>
+      @click="showBigPhoto = false">
+      <img src="@/assets/icon/closewhite.svg" alt="">
+    </div>
     <img src="@/assets/img/ca.png"
       class="rotate-180 w-[50px] absolute top-[50%] left-[20%] translate-y-[-50%] cursor-pointer" v-if="nowIndex > 1"
       @click="changePicIndex('back')">
