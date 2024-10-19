@@ -14,6 +14,7 @@ const info = reactive([
   '美国电话 ❘ +1 929-545-4470', '邮箱 ❘ contact@wag.marketing', '微信 ❘ wagmarketing', '小红书 | WAG品牌营销'
 ])
 const emailContent = ref('')
+
 </script>
 <template>
   <div
@@ -67,5 +68,21 @@ const emailContent = ref('')
 
 .pic {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.p-example {
+  &__body {
+    background: #d4e735;
+    overflow: hidden;
+    color: #333;
+  }
+
+  &__splide {
+    padding: 3rem 2rem;
+
+    @media screen and (min-width: 768px) {
+      padding: 4rem;
+    }
+  }
 }
 </style>
