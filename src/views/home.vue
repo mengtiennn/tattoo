@@ -1,10 +1,10 @@
 <template>
   <div class="desktop:pt-[72px] tablet:pt-[72px]">
-    <div id="HOME" class="h-[710px] mac:h-[679px] relative mac:pt-[72px] tablet:pt-[0px] tablet:h-full">
+    <div id="HOME" class="h-[710px] mac:h-[667px] relative mac:pt-[72px] tablet:pt-[0px] tablet:h-full">
       <div class="w-full h-full tablet:hidden px-[78px]">
         <img class="w-full h-full object-cover object-top" src="@/assets/img/banner.png" alt="">
         <div
-          class="w-fit absolute text-white left-[20%] top-[25%] flex flex-col items-center tablet:left-0 tablet:top-[10%]">
+          class="w-fit absolute text-white left-[calc(17.5%)] top-[calc(50%-100px)] flex flex-col items-center tablet:left-0 tablet:top-[10%]">
           <div class="text-[48px] font-[400] tablet:w-[80%] tablet:text-center tablet:text-[32px] w-fit teko">
             7 TRAIN TATTOO STUDIO INC</div>
           <div class="flex flex-col tablet:text-center w-fit">
@@ -12,7 +12,7 @@
           </div>
           <div class="desktop:hidden mac:hidden laptop:hidden w-[1px] h-[67px] bg-white my-[1.2rem]" />
           <div
-            class="bg-white px-[22px] text-[24px] py-[1rem] my-[2.5rem] font-[400] text-black w-max cursor-pointer mobile:py-[8px] teko rounded-[20px]">
+            class="bg-white px-[22px] text-[20px] py-[7px] font-[400] my-[1rem] text-black w-max cursor-pointer mobile:py-[8px] teko rounded-[20px]">
             <a :href="'tel:646-379-9995'">Call to book (646) 379-9995</a>
           </div>
           <div class="flex flex-col justify-center items-center text-[20px] font-[300] mac:text-[1rem]">
@@ -24,22 +24,24 @@
           a
           tattoo consultation, please call (646) 379-9995.</div>
       </div>
-      <div class="hidden tablet:flex tablet:flex-col justify-center items-center bg-black text-white pt-[3rem]">
-        <div
-          class="text-[36px] font-[400] tracking-wide tablet:w-[80%] tablet:text-center tablet:text-[32px] w-fit teko">
-          7 TRAIN TATTOO<br />STUDIO INC</div>
-        <!-- <div class="flex flex-col tablet:text-center w-fit mb-[2rem]">
-          <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit teko">Ink Your Story, Wear Your Soul.</div>
-        </div> -->
-        <div
-          class="text-white px-[22px] py-[1rem] my-[2.5rem] font-[400] text-[18px] w-max cursor-pointer mobile:py-[8px] teko rounded-[20px]"
-          style="border: 1px solid white">
-          <a :href="'tel:646-379-9995'" class="tracking-wide">Call to book (646) 379-9995</a>
+      <div class="hidden tablet:flex tablet:flex-col justify-center items-center bg-black text-white">
+        <div class="my-[64px] flex flex-col justify-center items-center">
+          <div
+            class="text-[36px] font-[400] tracking-wide tablet:w-[80%] tablet:text-center w-fit teko">
+            7 TRAIN TATTOO <br> STUDIO INC</div>
+          <!-- <div class="flex flex-col tablet:text-center w-fit mb-[2rem]">
+            <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit teko">Ink Your Story, Wear Your Soul.</div>
+          </div> -->
+          <div
+            class="text-white px-[22px] py-[1rem] my-[2.5rem] font-[400] text-[18px] w-max cursor-pointer mobile:py-[8px] teko rounded-[20px] tablet:my-[0.5rem]"
+            style="border: 1px solid white">
+            <a :href="'tel:646-379-9995'" class="tracking-wide">Call to book (646) 379-9995</a>
+          </div>
+          <div class="flex flex-col justify-center items-center text-[14px] font-[400]">
+            <div class="tea">133-55 Roosevelt Ave 2nd fl,Flushing, NY 11354</div>
+          </div>
         </div>
-        <div class="flex flex-col justify-center items-center text-[14px] font-[400]">
-          <div class="tea">133-55 Roosevelt Ave 2nd fl,Flushing, NY 11354</div>
-        </div>
-        <img class="mt-[5.5rem] w-full" src="@/assets/img/bannerPhone.png" alt="">
+        <img class="w-full" src="@/assets/img/bannerPhone.png" alt="">
       </div>
     </div>
     <div id="ABOUT" class="px-[10%] flex py-[12rem] justify-evenly tablet:py-[109px] mac:py-[8rem]">
@@ -308,7 +310,11 @@
       <div class="flex">
         <img src="@/assets/img/contactphoto.png" alt="" class="w-[410px]">
         <div
-          class="w-[295px] h-[333px] bg-[#292929] translate-x-[-40px] translate-y-[71px] flex flex-col justify-center">
+          class="w-[295px] h-[333px] bg-[#292929] translate-x-[-40px] translate-y-[71px] flex flex-col gap-[18px] justify-center">
+          <div class="flex flex-col gap-[4px] items-center">
+            <span class="text-[24px] font-[400] text-white teko mac:text-[24px] tracking-wide">CONTACT</span>
+            <span class="text-[15px] font-[300] text-white teko text-center mac:text-[15px] tracking-widest">(646) 379-9995</span>
+          </div>
           <div class="flex flex-col gap-[4px] items-center">
             <span class="text-[24px] font-[400] text-white teko mac:text-[24px] tracking-wide">LOCATION</span>
             <span class="text-[15px] font-[300] text-white teko text-center mac:text-[15px] tracking-widest">133-55
@@ -317,7 +323,7 @@
               NY
               11354</span>
           </div>
-          <div class="flex flex-col gap-[4px] items-center mt-[33px]">
+          <div class="flex flex-col gap-[4px] items-center">
             <span class="text-[24px] font-[400] text-white teko mac:text-[24px] tracking-wide">HOURS OF
               OPERATION</span>
             <span class="text-[15px] font-[300] text-white teko mac:text-[15px] tracking-widest">
@@ -377,7 +383,7 @@
     </div>
     <div id="CONTACT" class="mx-[20%] flex flex-col justify-center items-center tablet:hidden">
       <div
-        class="text-[28px] mac:text-[28px] font-[500] tablet:leading-[2rem] tablet:text-[1.5rem] tablet:text-center teko tracking-wide">
+        class="text-[32px] mac:text-[32px] font-[500] tablet:leading-[2rem] tablet:text-[1.5rem] tablet:text-center teko tracking-wide">
         Professional Tattooing and Piercing</div>
       <div class="text-[15px] mac:text-[15px] font-[400] my-[2rem] tablet:text-[1rem] tea text-center w-[80%]">
         Led by award-winning tattoo artist Ricky, who has won multiple honors at the New York International Tattoo Expo,
@@ -390,14 +396,14 @@
         specializes in Asian styles, Chinese watercolor, fine line, and small tattoos, with a keen eye for detail and
         refined compositions.
       </div>
-      <div class="text-[15px] mac:text-[15px] font-[600] tablet:text-[1rem] tea mt-[40px]">Book your appointment
+      <div class="text-[20px] mac:text-[20px] font-[600] tablet:text-[1rem] tea mt-[10px]">Book your appointment
         today! </div>
-      <div class="text-[15px] mac:text-[15px] font-[600] tablet:text-[1rem] tea">Call (646) 379-9995 for consultation.
+      <div class="text-[20px] mac:text-[20px] font-[600] tablet:text-[1rem] tea">Call (646) 379-9995 for consultation.
       </div>
     </div>
-    <div id="CONTACT" class="flex-col justify-center items-center hidden tablet:flex px-[20px]">
+    <div id="CONTACT" class="flex-col justify-center items-center hidden tablet:flex px-[15%]">
       <div
-        class="text-[36px] mac:text-[28px] font-[500] tablet:leading-[2rem] tablet:text-[1.5rem] tablet:text-center teko tracking-wide">
+        class="text-[36px] mac:text-[28px] font-[500] tablet:leading-[2rem] tablet:text-[36px] tablet:text-center teko tracking-wide">
         Professional<br />Tattooing and Piercing</div>
       <div class="text-[15px] mac:text-[15px] font-[400] my-[2rem] tablet:text-[1rem] tea text-center">
         Led by award-winning tattoo artist Ricky, who has won multiple honors at the New York International Tattoo Expo,
@@ -416,10 +422,15 @@
       </div>
     </div>
     <div
-      class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:flex-col tablet:my-[5rem] tablet:px-[20px]">
-      <img src="@/assets/img/contactImg1.png" alt="" class="h-[412px] object-contain">
-      <img src="@/assets/img/contactImg2.png" alt="" class="h-[412px] object-contain">
-      <img src="@/assets/img/contactImg3.png" alt="" class="h-[412px] object-contain">
+      class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:hidden ">
+      <img src="@/assets/img/contactImg1.png" alt="" class="w-[300px] h-[412px] object-cover">
+      <img src="@/assets/img/contactImg2.png" alt="" class="w-[300px] h-[412px] object-cover">
+      <img src="@/assets/img/contactImg3.png" alt="" class="w-[300px] h-[412px] object-cover">
+    </div>
+    <div class="hidden flex-col justify-center items-center gap-[2rem] my-[5rem] px-[20px] tablet:flex">
+      <img src="@/assets/img/contactImg3.png" alt="" class="w-[227px] h-[338px] object-cover">
+      <img src="@/assets/img/contactImg1.png" alt="" class="w-[227px] h-[338px] object-cover">
+      <img src="@/assets/img/contactImg2.png" alt="" class="w-[227px] h-[338px] object-cover">
     </div>
   </div>
   <div
