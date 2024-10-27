@@ -26,8 +26,7 @@
       </div>
       <div class="hidden tablet:flex tablet:flex-col justify-center items-center bg-black text-white">
         <div class="my-[64px] flex flex-col justify-center items-center">
-          <div
-            class="text-[36px] font-[400] tracking-wide tablet:w-[80%] tablet:text-center w-fit teko">
+          <div class="text-[36px] font-[400] tracking-wide tablet:w-[80%] tablet:text-center w-fit teko">
             7 TRAIN TATTOO <br> STUDIO INC</div>
           <!-- <div class="flex flex-col tablet:text-center w-fit mb-[2rem]">
             <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit teko">Ink Your Story, Wear Your Soul.</div>
@@ -53,7 +52,7 @@
       <div class="w-[50%] flex flex-col items-center tablet:hidden">
         <div class="flex flex-col items-center justify-center text-[48px] font-[400] mb-[2rem]">
           <div class="teko">SERVICE BEYOND </div>
-          <div class="teko">EXPECTATION</div>
+          <div class="teko mt-[-20px]">EXPECTATION</div>
         </div>
         <div class="w-[90%]">
           <div class="noto text-[#636262] text-center">
@@ -107,10 +106,10 @@
       <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[8vw] px-[60px] justify-between">
         <div class="flex w-full gap-[45px] items-center justify-center">
           <div class="flex flex-col gap-[16px] w-[30%] items-center">
-            <span class="teko font-[500] text-[24px]">Ricky Chen</span>
+            <span class="teko font-[500] text-[32px]">Ricky Chen</span>
             <img class="w-[277px]" src="@/assets/img/ricky.png" alt="contact">
           </div>
-          <div class="w-[55%] flex flex-col gap-[10px]">
+          <div class="w-[45%] flex flex-col gap-[10px]">
             <span
               class="noto text-[15px] font-[400] text-center">Ricky先生曾经是中国青年艺术家，多次获过全国及国际书画艺术大奖，2015年还在华盛顿国会山庄获过艺术成就奖，并由国会议员、参众两院财政委员会主席：卡罗林-玛罗尼亲自颁奖。后来改行做为纹身艺术家，纹身作品又在纽约国际纹身博览会中多次获过纹身一等奖、二等奖、三等奖等等。
               擅长亚洲风格、写实风格、彩色黑白等等。他的独特构图和错综复杂的细节使得纹身作品与众不同，无论是从近看还是远观。
@@ -135,13 +134,13 @@
             </span>
           </div>
         </div>
-        <div class="w-[80%] px-[40px]">
+        <div class="w-[65%] px-[40px]">
           <Carousel :snapAlign="'center'" :breakpoints="breakpoints" :wrapAround="true">
             <Slide v-for="r in 9" :key="r">
               <div class="carousel__item" @click="show('r', r)">
                 <!-- <img :src="getAssetsFile(`carousel/c${slide}.png`)"
                   class="w-[220px] h-[281px] object-cover cursor-pointer"> -->
-                <img :src="getAssetsImgFile('r', `r${r}.png`)" alt="" class="h-[150px] object-contain">
+                <img :src="getAssetsImgFile('r', `r${r}.png`)" alt="" class="h-[157px] object-contain">
               </div>
             </Slide>
             <template #addons>
@@ -178,11 +177,11 @@
             </span>
           </div>
           <div class="flex flex-col gap-[16px] w-[30%] items-center">
-            <span class="teko font-[500] text-[24px]">Danny</span>
+            <span class="teko font-[500] text-[32px]">Danny</span>
             <img class="w-[232px]" src="@/assets/img/danny.png" alt="contact">
           </div>
         </div>
-        <div class="w-[80%] px-[40px]">
+        <div class="w-[65%] px-[40px]">
           <Carousel :snapAlign="'center'" :breakpoints="breakpoints" :wrapAround="true">
             <Slide v-for="d in 9" :key="d">
               <div class="carousel__item" @click="show2('d', d)">
@@ -313,7 +312,8 @@
           class="w-[295px] h-[333px] bg-[#292929] translate-x-[-40px] translate-y-[71px] flex flex-col gap-[18px] justify-center">
           <div class="flex flex-col gap-[4px] items-center">
             <span class="text-[24px] font-[400] text-white teko mac:text-[24px] tracking-wide">CONTACT</span>
-            <span class="text-[15px] font-[300] text-white teko text-center mac:text-[15px] tracking-widest">(646) 379-9995</span>
+            <span class="text-[15px] font-[300] text-white teko text-center mac:text-[15px] tracking-widest">(646)
+              379-9995</span>
           </div>
           <div class="flex flex-col gap-[4px] items-center">
             <span class="text-[24px] font-[400] text-white teko mac:text-[24px] tracking-wide">LOCATION</span>
@@ -421,8 +421,7 @@
       <div class="text-[15px] mac:text-[15px] font-[600] tablet:text-[1rem] tea">Call (646) 379-9995 for consultation.
       </div>
     </div>
-    <div
-      class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:hidden ">
+    <div class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:hidden ">
       <img src="@/assets/img/contactImg1.png" alt="" class="w-[300px] h-[412px] object-cover">
       <img src="@/assets/img/contactImg2.png" alt="" class="w-[300px] h-[412px] object-cover">
       <img src="@/assets/img/contactImg3.png" alt="" class="w-[300px] h-[412px] object-cover">
@@ -437,31 +436,35 @@
     class="w-[53px] h-[53px] bg-[#D9D9D9] rounded-full fixed bottom-[24px] right-[20px] flex justify-center items-center">
     <img src="@/assets/icon/arrow.svg" alt="arrow" class="w-[40px] rotate-90" @click="goToTop()">
   </div>
-  <div class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center pic z-[1000]" v-if="showBigPhoto">
+  <div class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center z-[1000]" v-if="showBigPhoto">
+    <div class="w-full h-full pic absolute left-0 top-0 z-10" @click="showBigPhoto = false"></div>
     <div class="absolute right-10 top-5 text-xl font-semibold z-20 text-white cursor-pointer"
       @click="showBigPhoto = false">
       <img src="@/assets/icon/closewhite.svg" alt="">
     </div>
     <img src="@/assets/img/ca.png"
-      class="rotate-180 w-[50px] absolute top-[50%] left-[20%] translate-y-[-50%] cursor-pointer tablet:left-0"
-      v-if="nowIndex > 1" @click="changePicIndex('back')">
-    <img :src="nowPic" class="w-[70vw] h-[80vh] object-contain">
+      class="rotate-180 w-[50px] absolute top-[50%] left-[20%] translate-y-[-50%] cursor-pointer tablet:left-0 z-20"
+      @click="changePicIndex('back')">
+    <img :src="nowPic"
+      class="h-[80vh] object-contain absolute left-[50%] translate-x-[-50%] z-20 tablet:w-[70vw] tablet:h-auto">
     <img src="@/assets/img/ca.png"
-      class="w-[50px] absolute top-[50%] right-[20%] translate-y-[-50%] cursor-pointer tablet:right-0"
-      v-if="nowIndex < 9" @click="changePicIndex('go')">
+      class="w-[50px] absolute top-[50%] right-[20%] translate-y-[-50%] cursor-pointer tablet:right-0 z-20"
+      @click="changePicIndex('go')">
   </div>
   <div class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center pic z-[1000]" v-if="showBigPhoto2">
+    <div class="w-full h-full pic absolute left-0 top-0 z-10" @click="showBigPhoto2 = false"></div>
     <div class="absolute right-10 top-5 text-xl font-semibold z-20 text-white cursor-pointer"
       @click="showBigPhoto2 = false">
       <img src="@/assets/icon/closewhite.svg" alt="">
     </div>
     <img src="@/assets/img/ca.png"
-      class="rotate-180 w-[50px] absolute top-[50%] left-[20%] translate-y-[-50%] cursor-pointer tablet:left-0"
-      v-if="nowIndex2 > 1" @click="changePicIndex2('back')">
-    <img :src="nowPic2" class="w-[70vw] h-[80vh] object-contain">
+      class="rotate-180 w-[50px] absolute top-[50%] left-[20%] translate-y-[-50%] cursor-pointer tablet:left-0 z-20"
+      @click="changePicIndex2('back')">
+    <img :src="nowPic2"
+      class="h-[80vh] object-contain absolute left-[50%] translate-x-[-50%] z-20 tablet:w-[70vw] tablet:h-auto">
     <img src="@/assets/img/ca.png"
-      class="w-[50px] absolute top-[50%] right-[20%] translate-y-[-50%] cursor-pointer tablet:right-0"
-      v-if="nowIndex2 < 9" @click="changePicIndex2('go')">
+      class="w-[50px] absolute top-[50%] right-[20%] translate-y-[-50%] cursor-pointer tablet:right-0 z-20"
+      @click="changePicIndex2('go')">
   </div>
 </template>
 
@@ -508,9 +511,25 @@ const show2 = (type, idx) => {
   nowIndex2.value = idx
 }
 const changePicIndex = (type) => {
+  if (nowIndex.value == 9 && type == 'go') {
+    nowIndex.value = 1
+    return
+  } else if ((nowIndex.value == 1 || nowIndex.value == 0) && type == 'back') {
+    console.log('yoyoy', nowIndex.value)
+    nowIndex.value = 9
+    return
+  }
   type == 'back' ? nowIndex.value -= 1 : nowIndex.value += 1
 }
 const changePicIndex2 = (type) => {
+  if (nowIndex2.value == 9 && type == 'go') {
+    nowIndex2.value = 1
+    return
+  } else if ((nowIndex2.value == 1 || nowIndex2.value == 0) && type == 'back') {
+    console.log('yoyoy', nowIndex2.value)
+    nowIndex2.value = 9
+    return
+  }
   type == 'back' ? nowIndex2.value -= 1 : nowIndex2.value += 1
 }
 const breakpoints = {
