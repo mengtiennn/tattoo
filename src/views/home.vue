@@ -13,7 +13,7 @@
           <div class="desktop:hidden mac:hidden laptop:hidden w-[1px] h-[67px] bg-white my-[1.2rem]" />
           <div
             class="bg-white px-[22px] text-[20px] py-[7px] font-[400] my-[1rem] text-black w-max cursor-pointer mobile:py-[8px] teko rounded-[20px]">
-            <a :href="'tel:646-379-9995'">Call to book (646) 379-9995</a>
+            <div class="teko mt-[5px]"><a :href="'tel:646-379-9995'">Call to book (646) 379-9995</a></div>
           </div>
           <div class="flex flex-col justify-center items-center text-[20px] font-[300] mac:text-[1rem]">
             <div class="teko tracking-widest">133-55 Roosevelt Ave 2nd fl, Flushing, NY 11354</div>
@@ -26,8 +26,10 @@
       </div>
       <div class="hidden tablet:flex tablet:flex-col justify-center items-center bg-black text-white">
         <div class="my-[64px] flex flex-col justify-center items-center">
-          <div class="text-[36px] font-[400] tracking-wide tablet:w-[80%] tablet:text-center w-fit teko">
-            7 TRAIN TATTOO <br> STUDIO INC</div>
+          <div class="text-[36px] font-[400] tracking-wide flex flex-col tablet:text-center w-fit teko">
+            <span class="teko tracking-wide">7 TRAIN TATTOO</span>
+            <span class="teko tracking-wide mt-[-20px]">STUDIO INC</span>
+          </div>
           <!-- <div class="flex flex-col tablet:text-center w-fit mb-[2rem]">
             <div class="text-[1.5rem] font-[400] tablet:text-[14px] w-fit teko">Ink Your Story, Wear Your Soul.</div>
           </div> -->
@@ -52,7 +54,7 @@
       <div class="w-[50%] flex flex-col items-center tablet:hidden">
         <div class="flex flex-col items-center justify-center text-[48px] font-[400] mb-[2rem]">
           <div class="teko">SERVICE BEYOND </div>
-          <div class="teko mt-[-20px]">EXPECTATION</div>
+          <div class="teko mt-[-30px]">EXPECTATION</div>
         </div>
         <div class="w-[90%]">
           <div class="noto text-[#636262] text-center">
@@ -76,7 +78,9 @@
         </div>
       </div>
       <div class="desktop:hidden mac:hidden laptop:hidden flex flex-col justify-center items-center">
-        <div class="text-[36px] font-[400] mb-[14px] whitespace-nowrap text-center teko">SERVICE BEYOND<br />EXPECTATION
+        <div class="text-[36px] font-[400] mb-[14px] whitespace-nowrap text-center flex flex-col teko">
+          <span class="teko">SERVICE BEYOND</span>
+          <span class="teko mt-[-20px]">EXPECTATION</span>
         </div>
         <div class="text-[14px] font-[400] leading-[20px] noto text-[#636262] text-center w-[85%]">
           7号铁刺青(7 Train Tattoo )专业纹身-穿孔。由多次获得“纽约国际纹身博览会”大奖的
@@ -103,7 +107,7 @@
       class="w-full text-center text-black text-[40px] teko font-[500] mb-[35px] laptop:text-[36px] tablet:text-[36px]">
       Artist & Showcase</div>
     <div class="px-[90px] mb-[119px] laptop:hidden tablet:hidden">
-      <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[8vw] px-[60px] justify-between">
+      <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[60px] px-[60px] justify-between">
         <div class="flex w-full gap-[45px] items-center justify-center">
           <div class="flex flex-col gap-[16px] w-[30%] items-center">
             <span class="teko font-[500] text-[32px]">Ricky Chen</span>
@@ -134,7 +138,7 @@
             </span>
           </div>
         </div>
-        <div class="w-[65%] px-[40px]">
+        <div class="w-[78%] px-[40px]">
           <Carousel :snapAlign="'center'" :breakpoints="breakpoints" :wrapAround="true">
             <Slide v-for="r in 9" :key="r">
               <div class="carousel__item" @click="show('r', r)">
@@ -162,13 +166,12 @@
       </div>
     </div>
     <div class="px-[90px] mb-[119px] laptop:hidden tablet:hidden">
-      <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[8vw] px-[60px] justify-between">
-        <div class="flex w-[70%] gap-[45px] items-center justify-center">
+      <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[60px] px-[60px] justify-between">
+        <div class="flex w-[70%] gap-[45px] items-end justify-center">
           <div class="w-[55%] flex flex-col gap-[10px]">
             <span class="noto text-[15px] font-[400] text-center">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
               细线纹身，细小纹身等等。他讲究细节，构图精致，都能体现他的坚实的艺术基础。
             </span>
-            <br />
             <span class="tea text-[15px] font-[400] text-center">
               Master Danny has loved art since he was a child, and now he is a tattoo artist with many years of
               experience. He is good at Asian style, Chinese watercolor tattoos, fine line tattoos, small tattoos, etc.
@@ -181,7 +184,7 @@
             <img class="w-[232px]" src="@/assets/img/danny.png" alt="contact">
           </div>
         </div>
-        <div class="w-[65%] px-[40px]">
+        <div class="w-[78%] px-[40px]">
           <Carousel :snapAlign="'center'" :breakpoints="breakpoints" :wrapAround="true">
             <Slide v-for="d in 9" :key="d">
               <div class="carousel__item" @click="show2('d', d)">
@@ -223,7 +226,7 @@
     <div
       class="hidden laptop:flex tablet:flex flex-col bg-[#EAEAEA] pt-[84px] pb-[106px] px-[30px] justify-center mb-[54px]">
       <div class="flex flex-col items-center gap-[18px]">
-        <span class="teko font-[400] text-[24px] mac:text-[24px]">Ricky Chen</span>
+        <span class="teko font-[400] text-[32px] mac:text-[32px]">Ricky Chen</span>
         <img src="@/assets/img/ricky.png" alt="contact" class="w-[80%]">
         <div class="text-[14px] teko flex flex-col gap-[5px] w-[80%]">
           <span
@@ -267,7 +270,7 @@
     <div
       class="hidden laptop:flex tablet:flex flex-col bg-[#EAEAEA] pt-[84px] pb-[106px] px-[30px] justify-center mb-[54px]">
       <div class="flex flex-col items-center gap-[18px]">
-        <span class="teko font-[500] text-[24px] mac:text-[24px]">Danny</span>
+        <span class="teko font-[500] text-[32px] mac:text-[32px]">Danny</span>
         <img src="@/assets/img/danny.png" alt="contact" class="w-[80%]">
         <div class="text-[14px] teko flex flex-col gap-[5px] w-[80%]">
           <span class="noto">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
@@ -403,8 +406,10 @@
     </div>
     <div id="CONTACT" class="flex-col justify-center items-center hidden tablet:flex px-[15%]">
       <div
-        class="text-[36px] mac:text-[28px] font-[500] tablet:leading-[2rem] tablet:text-[36px] tablet:text-center teko tracking-wide">
-        Professional<br />Tattooing and Piercing</div>
+        class="text-[36px] tablet:leading-[2rem] tablet:text-[36px] tablet:text-center teko tracking-wide flex flex-col">
+        <span class="mac:text-[28px] teko font-[500]">Professional</span>
+        <span class="mac:text-[28px] teko font-[500]">Tattooing & Piercing</span>
+      </div>
       <div class="text-[15px] mac:text-[15px] font-[400] my-[2rem] tablet:text-[1rem] tea text-center">
         Led by award-winning tattoo artist Ricky, who has won multiple honors at the New York International Tattoo Expo,
         our team is dedicated to providing you with a high-quality tattoo experience in a safe and hygienic environment.

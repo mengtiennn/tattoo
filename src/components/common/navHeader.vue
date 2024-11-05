@@ -37,7 +37,7 @@ const goUrl = (url?: string) => {
       <div class="w-full flex justify-between items-center gap-[5rem] tablet:justify-center">
         <div class="flex items-center cursor-pointer" @click="router.push('/')">
           <img class="w-[59px] h-[59px] object-contain" src="@/assets/img/logo.png" alt="logo">
-          <div class="whitespace-nowrap text-[20px] font-[400] tablet:text-[15px] teko">7 Train Tattoo Studio Inc</div>
+          <div class="whitespace-nowrap text-[20px] font-[400] tablet:text-[18px] teko mt-[8px] tablet:hidden">7 Train Tattoo Studio Inc</div>
         </div>
         <div class="flex gap-[32px] text-black laptop:hidden tablet:hidden text-[17px]">
           <div v-for="(link, idx) in optionList" :key="idx" @click="scrollTo(link)" class="cursor-pointer teko">{{ link
