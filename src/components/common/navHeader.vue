@@ -9,9 +9,16 @@ const scrollTo = (id:string) => {
   if(menuShow.value){
     menuShow.value = false
   }
-  const element = document.getElementById(id)
+  
+  let targetId = id
+  if(id === 'CONTACT') {
+    const screenWidth = window.innerWidth
+    targetId = screenWidth <= 500 ? 'CONTACT-MOBILE' : 'CONTACT-DESKTOP'
+  }
+
+  const element = document.getElementById(targetId)
   showHamburger.value = false
-  console.log(element)
+  
   if(element){
     const elementPosition = element.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - 95;
@@ -37,7 +44,7 @@ const goUrl = (url?: string) => {
       <div class="w-full flex justify-between items-center gap-[5rem] tablet:justify-center">
         <div class="flex items-center cursor-pointer" @click="router.push('/')">
           <img class="w-[59px] h-[59px] object-contain" src="@/assets/img/logo.png" alt="logo">
-          <div class="whitespace-nowrap text-[20px] font-[400] tablet:text-[18px] teko mt-[8px] tablet:hidden">7 Train Tattoo Studio Inc</div>
+          <div class="whitespace-nowrap text-[20px] font-[400] tablet:text-[18px] teko mt-[8px]">7 Train Tattoo Studio Inc</div>
         </div>
         <div class="flex gap-[32px] text-black laptop:hidden tablet:hidden text-[17px]">
           <div v-for="(link, idx) in optionList" :key="idx" @click="scrollTo(link)" class="cursor-pointer teko">{{ link

@@ -103,8 +103,7 @@
       </div>
     </div>
     <!-- 刺青師介紹電腦版 -->
-    <div
-      class="w-full text-center text-black text-[40px] teko font-[500] mb-[35px] laptop:text-[36px] tablet:text-[36px]">
+    <div id="ARTISTS" class="w-full text-center text-black text-[40px] teko font-[500] mb-[35px] laptop:text-[36px] tablet:text-[36px]">
       Artist & Showcase</div>
     <div class="px-[90px] mb-[119px] laptop:hidden tablet:hidden">
       <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[60px] px-[60px] justify-between">
@@ -308,7 +307,7 @@
       </div>
     </div>
     <!-- contact 電腦版 -->
-    <div class="w-full flex justify-center items-center py-[247px] laptop:hidden tablet:hidden">
+    <div id="CONTACT-DESKTOP" class="w-full flex justify-center items-center py-[247px] laptop:hidden tablet:hidden">
       <div class="flex">
         <img src="@/assets/img/contactphoto.png" alt="" class="w-[410px]">
         <div
@@ -362,7 +361,7 @@
       </div> -->
     </div>
     <!-- contact 手機版 -->
-    <div
+    <div id="CONTACT-MOBILE"
       class="hidden laptop:flex tablet:flex bg-[#292929] w-full pt-[191px] pb-[100px] justify-center relative mt-[200px] mb-[75px]">
       <img src="@/assets/img/mcontact.png" alt="" class="absolute top-[-100px]">
       <div class="flex flex-col justify-between gap-[46px]">
@@ -384,7 +383,7 @@
         </div>
       </div>
     </div>
-    <div id="CONTACT" class="mx-[20%] flex flex-col justify-center items-center tablet:hidden">
+    <div class="mx-[20%] flex flex-col justify-center items-center tablet:hidden">
       <div
         class="text-[32px] mac:text-[32px] font-[500] tablet:leading-[2rem] tablet:text-[1.5rem] tablet:text-center teko tracking-wide">
         Professional Tattooing and Piercing</div>
@@ -404,7 +403,7 @@
       <div class="text-[20px] mac:text-[20px] font-[600] tablet:text-[1rem] tea">Call (646) 379-9995 for consultation.
       </div>
     </div>
-    <div id="CONTACT" class="flex-col justify-center items-center hidden tablet:flex px-[15%]">
+    <div class="flex-col justify-center items-center hidden tablet:flex px-[15%]">
       <div
         class="text-[36px] tablet:leading-[2rem] tablet:text-[36px] tablet:text-center teko tracking-wide flex flex-col">
         <span class="mac:text-[28px] teko font-[500]">Professional</span>
@@ -426,15 +425,17 @@
       <div class="text-[15px] mac:text-[15px] font-[600] tablet:text-[1rem] tea">Call (646) 379-9995 for consultation.
       </div>
     </div>
-    <div class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:hidden ">
-      <img src="@/assets/img/contactImg1.png" alt="" class="w-[300px] h-[412px] object-cover">
-      <img src="@/assets/img/contactImg2.png" alt="" class="w-[300px] h-[412px] object-cover">
-      <img src="@/assets/img/contactImg3.png" alt="" class="w-[300px] h-[412px] object-cover">
-    </div>
-    <div class="hidden flex-col justify-center items-center gap-[2rem] my-[5rem] px-[20px] tablet:flex">
-      <img src="@/assets/img/contactImg3.png" alt="" class="w-[227px] h-[338px] object-cover">
-      <img src="@/assets/img/contactImg1.png" alt="" class="w-[227px] h-[338px] object-cover">
-      <img src="@/assets/img/contactImg2.png" alt="" class="w-[227px] h-[338px] object-cover">
+    <div id="GALLERY">
+      <div class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:hidden ">
+        <img src="@/assets/img/contactImg1.png" alt="" class="w-[300px] h-[412px] object-cover">
+        <img src="@/assets/img/contactImg2.png" alt="" class="w-[300px] h-[412px] object-cover">
+        <img src="@/assets/img/contactImg3.png" alt="" class="w-[300px] h-[412px] object-cover">
+      </div>
+      <div class="hidden flex-col justify-center items-center gap-[2rem] my-[5rem] px-[20px] tablet:flex">
+        <img src="@/assets/img/contactImg3.png" alt="" class="w-[227px] h-[338px] object-cover">
+        <img src="@/assets/img/contactImg1.png" alt="" class="w-[227px] h-[338px] object-cover">
+        <img src="@/assets/img/contactImg2.png" alt="" class="w-[227px] h-[338px] object-cover">
+      </div>
     </div>
   </div>
   <div
